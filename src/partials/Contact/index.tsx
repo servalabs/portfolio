@@ -76,7 +76,7 @@ function Contact() {
               <ul className={style.list}>
                 <li>
                   <a
-                    href="https://x.com/saumyashhah"
+                    href="https://x.com/saumyashhah/"
                     onMouseEnter={overHandler}
                     onMouseLeave={outHandler}
                     target="_blank"
@@ -86,12 +86,12 @@ function Contact() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/servalabs"
+                    href="https://linkedin.com/in/saumyashhah/"
                     onMouseEnter={overHandler}
                     onMouseLeave={outHandler}
                     target="_blank"
                   >
-                    Github <ExternalArrow />
+                    Linkedin <ExternalArrow />
                   </a>
                 </li>
               </ul>
