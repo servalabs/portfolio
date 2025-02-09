@@ -10,15 +10,15 @@
   "go to project": "Go to",
   "intro": {
     "p1": {
-      "l1": "It's all about technology",
-      "l2": "and design process"
+      "l1": "Plan like the military",
+      "l2": "Think like a philosopher"
     },
     "p2": {
-      "l1": "Research and innovation",
-      "l2": "are the driver of memorable experiences"
+      "l1": "Dream like an Artist ",
+      "l2": "Persevere like an Athlete"
     },
     "p3": {
-      "l1": "I'm a Creative Technologist"
+      "l1": "I'm a curious builder"
     },
     "p4": {
       "l1": "Saumya Shah."
@@ -32,7 +32,7 @@
     "intro": [
       "I help",
       "COMPANIES BUILD STUFF & <br /> MARKET THEM",
-      "From AI Recorder (then very small product image INLINE) to Powerbank","with an OS (then very small product image INLINE)"
+      "From AI Recorder to a Powerbank","with an OS"
     ],
     "portfolio": [
       "Portfolio",
@@ -64,7 +64,7 @@
     ]
   },
   "contact": {
-    "intro": "You can get in touch with me by writing to",
-    "social_intro": "For a cup of coffee or a discussion on philosophy, get in touch!"
+    "intro": "For a cup of coffee or a discussion on philosophy, get in touch!",
+    "social_intro": "I'll revert back soon"
   }
 }
