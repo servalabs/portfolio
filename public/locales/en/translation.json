@@ -42,9 +42,9 @@
   },
   "about": {
     "intro": [
-      "I was born in <ImageOg_image>Venice</ImageOg_image> in september '86, today I live in Como and work at <ImageSketchin>Sketchin</ImageSketchin>, an advanced-design studio, as Creative Technologist.",
+      "I was born in <ImageOg_image>Venice</ImageOg_image> in september '86, today I live in Como and work at , an advanced-design studio, as Creative Technologist.",
       "<pre>Twenty/ys</pre>ago the first<br />version of<br /> TheyCallMeGiulio",
-      "The third version, in 2004, was the first to have the top-level domain <ImageTCMGTK>theycallmegiulio.tk</ImageTCMGTK>",
+      "The third version, in 2004, was the first to have the top-level domain <ImageTesla>theycallmegiulio.tk</ImageTesla>",
       "Since then I have been designing and implementing virtual experiences. I have studied different programming languages and databases to cover the whole stack.",
       "Today I think in javascript."
     ],

@@ -8,30 +8,17 @@ type Project = {
 }
 
 const initialState: Project[] = [
+  
   {
-    name: 'Sketchin',
-    url: 'sketchin',
-    video: document.getElementById('skReel') as HTMLVideoElement
-  },  
-  {
-    name: 'AQuest',
+    name: 'AQuestee',
     url: 'aquest',
-    video: document.getElementById('aqReel') as HTMLVideoElement
+    videoID: 'aqReel'
   },
-  {
-    name: 'Fastweb',
-    url: 'fastweb',
-    video: document.getElementById('fbReel') as HTMLVideoElement
-  },
-  {
-    name: 'Feudi',
-    url: 'feudi',
-    video: document.getElementById('feudiReel') as HTMLVideoElement
-  },
+
   {
     name: 'Claraluna',
     url: 'claraluna',
-    video: document.getElementById('claralunaReel') as HTMLVideoElement
+    videoID: 'claralunaReel'
   }
 ]
 
