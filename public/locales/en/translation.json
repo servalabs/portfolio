@@ -10,18 +10,18 @@
   "go to project": "Go to",
   "intro": {
     "p1": {
-      "l1": "Plan like the military",
-      "l2": "Think like a philosopher"
+      "l1": "I'm a Saumya",
+      "l2": "A curious builder"
     },
     "p2": {
-      "l1": "Dream like an Artist ",
-      "l2": "Persevere like an Athlete"
+      "l1": "Plan like the military",
+      "l2": "Think like a Philosopher"
     },
     "p3": {
-      "l1": "I'm a curious builder"
+      "l1": "Dream like an Artist"
     },
     "p4": {
-      "l1": "Saumya Shah."
+      "l1": "Persevere like an Athlete"
     },
     "scroll_cta": {
       "line1": "Scroll down",
@@ -59,8 +59,7 @@
     "method": [
       "High-voltage physics experiments like tesla coils.Building websites and tinkering with tech.<br/>Playing with model rockets.",
       "The only true wisdom is knowing <br />you know nothing",
-      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth",
-      "If international recognition comes on top of that, it is a greater satisfaction."
+      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth"
     ]
   },
   "contact": {
