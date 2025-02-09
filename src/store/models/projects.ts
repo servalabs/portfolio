@@ -10,15 +10,29 @@ type Project = {
 const initialState: Project[] = [
   
   {
-    name: 'AQuestee',
-    url: 'aquest',
-    videoID: 'aqReel'
+    name: 'Sketchin',
+    url: 'sketchin',
+    video: document.getElementById('skReel') as HTMLVideoElement
   },
-
+  {
+    name: 'AQuest',
+    url: 'aquest',
+    video: document.getElementById('aqReel') as HTMLVideoElement
+  },
+  {
+    name: 'Fastweb',
+    url: 'fastweb',
+    video: document.getElementById('fbReel') as HTMLVideoElement
+  },
+  {
+    name: 'Feudi',
+    url: 'feudi',
+    video: document.getElementById('feudiReel') as HTMLVideoElement
+  },
   {
     name: 'Claraluna',
     url: 'claraluna',
-    videoID: 'claralunaReel'
+    video: document.getElementById('claralunaReel') as HTMLVideoElement
   }
 ]
 
