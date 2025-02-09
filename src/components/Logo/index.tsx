@@ -50,14 +50,14 @@ function Logo() {
     <div className={classes}>
       <span className={style.light}>
         <span className={style.inner} onAnimationEnd={endAnimationHandler}>
-          They
+          Saumya
         </span>
       </span>
       <span className={style.light}>
-        <span className={style.inner}>call me</span>
+        <span className={style.inner}>Shah</span>
       </span>
       <span className={style.bold}>
-        <span className={style.inner}>Saumya Shah</span>
+        <span className={style.inner}>✨</span>
       </span>
     </div>
   )
