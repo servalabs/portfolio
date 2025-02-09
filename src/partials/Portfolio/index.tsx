@@ -57,6 +57,9 @@ function Portfolio() {
       <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/sk/sk-reel.mp4" type="video/mp4" />
       </video>
+      <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/sk/sk-reel.mp4" type="video/mp4" />
+      </video>
       <video id="skReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/aq/reel-aq.mp4" type="video/mp4" />
       </video>
@@ -69,6 +72,7 @@ function Portfolio() {
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
       </video>
+      
     </Section>
   )
 }
