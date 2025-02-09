@@ -138,6 +138,21 @@ export default class Portfolio {
         name: 'Claraluna',
         url: 'claraluna',
         video: document.getElementById('claralunaReel') as HTMLVideoElement
+      },
+      {
+        name: 'Claraluna',
+        url: 'claraluna',
+        video: document.getElementById('claralunaReel') as HTMLVideoElement
+      },
+      {
+        name: 'Claraluna',
+        url: 'claraluna',
+        video: document.getElementById('claralunaReel') as HTMLVideoElement
+      },
+      {
+        name: 'Claraluna',
+        url: 'claraluna',
+        video: document.getElementById('claralunaReel') as HTMLVideoElement
       }
     ]
 

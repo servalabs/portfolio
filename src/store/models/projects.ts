@@ -8,13 +8,6 @@ type Project = {
 }
 
 const initialState: Project[] = [
-  
-
-  {
-    name: 'Sketchin',
-    url: 'sketchin',
-    video: document.getElementById('skReel') as HTMLVideoElement
-  },  
   {
     name: 'Sketchin',
     url: 'sketchin',

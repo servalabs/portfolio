@@ -72,6 +72,15 @@ function Portfolio() {
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
       </video>
+      <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
+      </video>
+      <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
+      </video>
+      <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
+      </video>
       
     </Section>
   )
