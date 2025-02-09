@@ -25,7 +25,7 @@
     },
     "scroll_cta": {
       "line1": "Scroll down",
-      "line2": "to see some work"
+      "line2": "to know more"
     }
   },
   "portfolio": {
@@ -65,6 +65,6 @@
   },
   "contact": {
     "intro": "You can get in touch with me by writing to",
-    "social_intro": "You can find me a little less on social, but if you want you can also contact me on"
+    "social_intro": "For a cup of coffee or a discussion on philosophy, get in touch!"
   }
 }
