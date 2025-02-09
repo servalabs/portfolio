@@ -1,0 +1,88 @@
+.root {
+  position: fixed;
+  top: var(--frame-margin);
+  right: var(--frame-margin);
+  left: auto;
+  display: flex;
+  width: 55px;
+  flex-direction: column;
+  place-items: flex-end;
+}
+
+.marker {
+  display: inline-block;
+  width: 0;
+  height: 1px;
+  margin-left: 0;
+  background-color: var(--color-white);
+  transform-origin: right;
+  transition: transform 0.5s var(--power3-ease-out), width 0.5s var(--power3-ease-out), background-color 0.3s 0.5s;
+  will-change: width, margin-left;
+
+  .dark & {
+    background-color: var(--color-black);
+  }
+
+  .hidden .active & {
+    transform: scale(0, 1);
+    transition: transform 0.5s var(--power3-ease-out), background-color 0.3s 0.5s;
+  }
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  padding-bottom: var(--spc-1);
+  border: 0;
+  background-color: transparent;
+  color: var(--color-white);
+  cursor: none;
+  place-content: flex-end;
+  place-items: center;
+  text-align: right;
+  transition: color 0.3s 0.5s;
+
+  .dark & {
+    color: var(--color-black);
+  }
+
+  &.active {
+    .marker {
+      width: var(--spc-4);
+      margin-left: var(--spc-1);
+    }
+  }
+
+  &:hover:not(.active) {
+    .marker {
+      width: var(--spc-1);
+      margin-left: var(--spc-1);
+    }
+  }
+}
+
+.label {
+  display: inline-block;
+  overflow: hidden;
+
+  span {
+    display: inline-block;
+    transition: transform 0.5s var(--power3-ease-out);
+
+    .hidden & {
+      transform: translate3d(15px, 0, 0);
+      transition: transform 0.5s var(--power3-ease-out) 0s;
+    }
+  }
+}
+
+.hidden {
+  .active {
+    .label {
+      span {
+        transform: translate3d(15px, 0, 0);
+        transition: transform 0.5s var(--power3-ease-out) 0s;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.root {
+  @mixin body-2;
+
+  position: relative;
+  z-index: 1;
+  padding-top: calc(15vh + var(--fs-display-1) + var(--spc-10));
+  margin-top: calc(var(--app-height) / 2);
+  margin-bottom: 300vh;
+  color: var(--color-white);
+
+  @media (--md-l) {
+    margin-top: var(--app-height);
+  }
+
+  h3 {
+    margin-top: var(--content-block-margin-top);
+  }
+}
+
+.awardsTitle {
+  margin-top: var(--spc-10);
+}
+
+.section {
+  margin-top: var(--content-block-margin-top);
+}
+
+.columns {
+
+  @media (--md-l) {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spc-4);
+
+    > * {
+      flex: 1;
+    }
+  }
+}

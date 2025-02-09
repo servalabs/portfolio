@@ -1,0 +1,71 @@
+{
+  "loading": "Caricamento",
+  "enter": "Entra",
+  "role": "Ruolo",
+  "agency": "Agenzia",
+  "completed": "Completato",
+  "riconoscimenti": "Riconoscimenti",
+  "close": "Chiudi",
+  "close project": "Chiudi il progetto",
+  "go to project": "Visita il case",
+  "intro": {
+    "p1": {
+      "l1": "Si tratta di tecnologia",
+      "l2": "e di metodo di design"
+    },
+    "p2": {
+      "l1": "La ricerca e l'innovazione",
+      "l2": "sono il driver per esperienze memorabili"
+    },
+    "p3": {
+      "l1": "Sono un Creative Technologist"
+    },
+    "p4": {
+      "l1": "They Call Me Giulio."
+    },
+    "scroll_cta": {
+      "line1": "Scrolla per",
+      "line2": "vedere i progetti"
+    }
+  },
+  "portfolio": {
+    "intro": [
+      "Creo",
+      "esperienze digitali<br />interattive.",
+      "Dall'architettura delle informazioni, alla ricerca degli elementi di UI, fino alla cura maniacale delle interazioni.",
+      "E poi, il mio primo amore, l'ottimizzazione del codice."
+    ],
+    "portfolio": [
+      "Progetti",
+      "Ho collaborato con aziende come: <strong>Nexi</strong>, <strong>Sky</strong>, <strong>Fastweb</strong>, <strong>IBL</strong>, <strong>Generali</strong>, <strong>Corner</strong>, <strong>AMDL Circle</strong>.<br /><br />",
+      "Ecco alcuni dei miei progetti più rilevanti."
+    ]
+  },
+  "about": {
+    "intro": [
+      "Sono nato a <ImageVenice>Venezia</ImageVenice> nel settembre dell'86, oggi vivo a Como e lavoro per <ImageSketchin>Sketchin</ImageSketchin>, uno studio di advanced-design, come Creative Technologist.",
+      "<pre>Venti</pre> anni fa la prima<br />versione di<br /> TheyCallMeGiulio",
+      "La terza versione, nel 2004 fu la prima ad avere il dominio di primo livello <ImageTCMGTK>theycallmegiulio.tk</ImageTCMGTK>",
+      "Da allora progetto e realizzo esperienze virtuali. Ho studiato diversi linguaggi di programmazione e database per coprire l'intero stack.",
+      "Oggi penso in Javsacript."
+    ],
+    "clan_title": ["Numbers", "One"],
+    "clan": [
+      "È il nome di un clan di players di cui fui cofondatore. Una community il cui interesse principale era la passione per <ImageBW>Starcraft Brood War</ImageBW>.",
+      "In quel periodo (erano i primi anni 2000) iniziai a coniugare il divertimento per questo gioco e la passione per il mio lavoro, esercitandomi nel costruire il primo <ImageNO2>n1clan.net</ImageNO2>.",
+      "Un anno dopo realizzai un <ImageNO3>portale Web 2.0</ImageNO3> con logiche di login, news, interviste, upload e sharing dei replay di gioco. Visual con Photoshop, frontend con HTML, CSS e Javascript. Backend custom con PHO Codeigniter e MySql. Sembra ancora uno stack moderno.",
+      "Oggi, come allora, arricchisco il mio lavoro con costante formazione, aggiornamento, condivisione e curiosità."
+    ],
+    "method_title": "Metodo<br /><pre>e</pre>riconoscimenti",
+    "method": [
+      "Creare un prodotto di successo non vuol dire solo avere una bella estetica e animazioni d’effetto.<br />L'efficacia e l'usabilità di un progetto dipendono dalle sinergie che si formano tra designer e developer.",
+      "Prediligo metodologie Lean<br />e Agile.",
+      "Promuovo per me e per gli altri<br />il miglioramento continuo,<br />attitudinale e di metodo.",
+      "Se oltre a questo arrivano dei riconoscimenti internazionali è una soddisfazione maggiore."
+    ]
+  },
+  "contact": {
+    "intro": "È possibile entrare in contatto con me scrivendo a",
+    "social_intro": "Mi trovate un po’ meno sui social, ma se volete potete contattarmi anche su"
+  }
+}

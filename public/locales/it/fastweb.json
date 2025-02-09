@@ -1,0 +1,80 @@
+{
+  "title": "Fastweb",
+  "image": "/projects/fb/hero.png",
+  "live": "",
+  "role": "UX Engineer",
+  "agency": "Sketchin",
+  "completed": "06.2020",
+  "awards": [],
+  "modules": [
+    {
+      "component": "TextIntro",
+      "text": "Per la nota Telco abbiamo progettato un nuovo modello di servizio full-digital per la connettività domestica a banda larga. Come UX Engineer ho supportato le fasi di Interaction e Visual design, garantendo coerenza nelle soluzioni proposte e parallelamente astraendo gli elementi di interfaccia in una Design Library che potesse diventare, un giorno, il Design System aziendale."
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/fb.jpg",
+          "alt": "Fastweb"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "La sfida",
+      "text": "Definita la value proposition, il progetto è stato suddiviso in diverse epiche da progettare.<br />Le attività di design si sono rivelate molto complesse e su più epiche contemporaneamente.<br />Review candenzate e co-design hanno rappresentato la chiave per tenere le fila.",
+      "numbers": [
+        {
+          "value": 32,
+          "label": "Iterazioni"
+        },
+        {
+          "value": 35,
+          "label": "Stakeholder"
+        },
+        {
+          "value": 16,
+          "label": "Designer coinvolti"
+        }
+      ]
+    },
+
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/fb-small-1.jpg",
+          "alt": "Fastweb mockup"
+        },
+        {
+          "src": "/projects/fb/fb-small-2.jpg",
+          "alt": "Fastweb mockup 2"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "Modularità e componibilità delle interfacce",
+      "text": "La Design Library ha lo scopo di creare coerenza nella comunicazione visiva tra i vari progetti e touchpoint. Consiste in un catalogo strutturato di elementi di interfaccia componibili tra loro.<br /><br />Data un'interfaccia esistente è possibile analizzarla e astrarla nei primi elementi. Questi possono essere utilizzati per realizzare altri template, oppure nuovi elementi possono essere aggiunti alla Design Library.<br /><br />Per questo progetto abbiamo seguito il metodo di Atomic Design di Brad Frost."
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/fb-2.jpg",
+          "alt": "Fastweb Design Library"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/fb-3.jpg",
+          "alt": "UI Fastweb"
+        }
+      ]
+    }
+  ]
+}

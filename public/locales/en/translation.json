@@ -1,0 +1,70 @@
+{
+  "loading": "Loading",
+  "enter": "Enter",
+  "role": "Role",
+  "agency": "Agency",
+  "completed": "Completed",
+  "riconoscimenti": "Awards",
+  "close": "Close",
+  "close project": "Close this project",
+  "go to project": "Go to",
+  "intro": {
+    "p1": {
+      "l1": "It's all about technology",
+      "l2": "and design process"
+    },
+    "p2": {
+      "l1": "Research and innovation",
+      "l2": "are the driver of memorable experiences"
+    },
+    "p3": {
+      "l1": "I'm a Creative Technologist"
+    },
+    "p4": {
+      "l1": "They Call Me Saumya."
+    },
+    "scroll_cta": {
+      "line1": "Scroll down",
+      "line2": "to see some work"
+    }
+  },
+  "portfolio": {
+    "intro": [
+      "I help",
+      "COMPANIES BUILD STUFF & <br /> LAUNCH THEM",
+      "From AI Recorder (then very small product image INLINE) to Powerbank","with an OS (then very small product image INLINE)"
+    ],
+    "portfolio": [
+      "Portfolio",
+      "From leading tech brands like <strong>Lenovo </strong>and <strong>Kingston</strong> to AI startups such as <strong>mymind (AI-powered second brain)</strong>, I've worked across several domains developing my intuition.<br /><br />",
+      "Explore my work below!"
+    ]
+  },
+  "about": {
+    "intro": [
+      "I was born in <ImageOg_image>Venice</ImageOg_image> in september '86, today I live in Como and work at <ImageSketchin>Sketchin</ImageSketchin>, an advanced-design studio, as Creative Technologist.",
+      "<pre>Twenty/ys</pre>ago the first<br />version of<br /> TheyCallMeGiulio",
+      "The third version, in 2004, was the first to have the top-level domain <ImageTCMGTK>theycallmegiulio.tk</ImageTCMGTK>",
+      "Since then I have been designing and implementing virtual experiences. I have studied different programming languages and databases to cover the whole stack.",
+      "Today I think in javascript."
+    ],
+    "clan_title": ["Serva", "Labs"],
+    "clan": [
+      "ServaLabs, a hardware startup decentralizing Compute & Data. Our product, the iServer, replaces *all traditional IT hardware and software in companies. <ImageBW>Starcraft: Brood War</ImageBW>.",
+      "At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first <ImageNO2>Numbers One</ImageNO2> website.",
+      "You can also find me exploring Neuroscience, Mental Models, History & GeopoliticsI give talks diving into AI’s actual capabilities and limits, and I love extrapolating its ripple effects.",
+      "Today, as then, I enrich my work with constant training, updating, sharing and curiosity."
+    ],
+    "method_title": "As a kid,<br/>2 I was already doing “a bunch of things”:",
+    "method": [
+      "High-voltage physics experiments like tesla coils.<br />Building websites and tinkering with tech.<br/>Playing with model rockets.",
+      "The only true wisdom is knowing <br />you know nothing",
+      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth",
+      "If international recognition comes on top of that, it is a greater satisfaction."
+    ]
+  },
+  "contact": {
+    "intro": "You can get in touch with me by writing to",
+    "social_intro": "You can find me a little less on social, but if you want you can also contact me on"
+  }
+}

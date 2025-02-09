@@ -1,0 +1,123 @@
+.root {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  margin-bottom: 100vh;
+  color: var(--color-white);
+}
+
+.head {
+  position: fixed;
+  z-index: var(--z-burger);
+
+  @media (--md-l) {
+    display: flex;
+  }
+}
+
+.logoContainer {
+  margin-top: var(--frame-margin);
+  margin-bottom: var(--frame-margin);
+  margin-left: var(--frame-margin);
+}
+
+.middle {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: var(--frame-margin);
+
+  @media (--md-p) {
+    margin-left: var(--text-margin-left);
+  }
+}
+
+.scroll {
+  @mixin desc;
+
+  display: flex;
+  width: 130px;
+  align-items: flex-end;
+  margin-right: var(--frame-margin);
+  margin-bottom: calc(var(--frame-margin) + var(--spc-8));
+  margin-left: var(--frame-margin);
+
+  @media (--md-p) {
+    margin-left: var(--text-margin-left);
+  }
+
+  @media (--md-l) {
+    width: 170px;
+    margin-bottom: var(--frame-margin);
+  }
+
+  .scrollText {
+    display: block;
+    margin-left: var(--spc-2);
+    transition: opacity 0.5s ease-in-out 4s;
+
+    @media (--md-l) {
+      margin-left: var(--spc-4);
+    }
+  }
+
+  &.gone {
+    .scrollText {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+  }
+}
+
+.scrollIndicator {
+  display: block;
+  width: 1px;
+  height: 100px;
+  background-color: #ccc;
+  transform-origin: 50% 0%;
+  transition: transform 0.5s ease-in-out 4s;
+
+  &::before {
+    top: 0;
+    display: block;
+    width: 1px;
+    height: 50%;
+    background-color: #333;
+    content: '';
+
+    :global {
+      animation: downWipe 2s ease-in-out infinite;
+    }
+  }
+
+  .scroll.gone & {
+    transform: scaleY(0);
+    transition: transform 0.5s ease-in-out;
+  }
+}
+
+.scramble {
+  margin-top: var(--spc-15);
+  letter-spacing: 3px;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease-in-out;
+
+  &.gone {
+    opacity: 0;
+  }
+}
+
+.footer {
+  position: fixed;
+  top: auto;
+  right: var(--frame-margin);
+  bottom: var(--frame-margin);
+  left: auto;
+}
+
+.dud {
+  color: var(--color-gray-600);
+}

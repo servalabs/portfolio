@@ -1,0 +1,40 @@
+.root {
+  @mixin body-2;
+
+  position: relative;
+  z-index: 1;
+  padding-top: calc(15vh + var(--fs-display-1) + var(--spc-10));
+  margin-top: calc(var(--app-height) / 2);
+  color: var(--color-white);
+  pointer-events: none;
+
+  @media (--md-l) {
+    height: 400vh;
+  }
+
+  h3 {
+    margin-top: var(--content-block-margin-top);
+  }
+}
+
+.pre {
+  display: block !important;
+  font-style: italic;
+  line-height: 1;
+}
+
+.cardContainer {
+  height: 200vh;
+}
+
+.video {
+  display: none;
+}
+
+.projectSection {
+  padding-top: 15vh;
+
+  @media (--md-l) {
+    padding-top: 33vh;
+  }
+}

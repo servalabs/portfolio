@@ -1,0 +1,15 @@
+.root {
+  @mixin body-1;
+
+  line-height: 1.5;
+}
+
+.phrase {
+  color: var(--color-gray-900);
+
+  /* white-space: nowrap; */
+}
+
+.completed {
+  color: var(--color-white);
+}

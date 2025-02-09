@@ -1,0 +1,49 @@
+.root {
+  position: relative;
+  overflow: auto;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: all 1s var(--power3-ease-out);
+  user-select: none;
+  will-change: transform, opacity;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.menuOpen {
+  opacity: 0.0;
+  transform: translate3d(0, 0, 0) scale(0.8);
+  transition: all 0.5s var(--power3-ease-out);
+}
+
+.front {
+  display: none;
+  pointer-events: none;
+}
+
+.reveal.isDesktop {
+  .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    clip-path: circle(0% at 0 0);
+    opacity: 1;
+    will-change: clip-path;
+  }
+
+  .base {
+    position: relative;
+    opacity: 0.3;
+  }
+}
+
+.reveal.isVisible.isDesktop {
+  .front {
+    clip-path: circle(140% at 0 0);
+    transition: clip-path 3s var(--power3-ease-in-out) 0s;
+  }
+}
