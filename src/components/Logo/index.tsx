@@ -48,7 +48,6 @@ function Logo() {
 
   return (
     <div className={classes}>
-<<<<<<< Updated upstream
       <span className={style.light}>
         <span className={style.inner} onAnimationEnd={endAnimationHandler}>
           Saumya
@@ -57,8 +56,6 @@ function Logo() {
       <span className={style.light}>
         <span className={style.inner}>Shah</span>
       </span>
-=======
->>>>>>> Stashed changes
       <span className={style.bold}>
         <span className={style.inner}>✨</span>
       </span>
