@@ -100,6 +100,16 @@ const sources: Sources = [
     path: '/images/tcmg.jpeg'
   },
   {
+    name: 'pow',
+    type: 'texture',
+    path: '/images/battery.jpeg'
+  },
+  {
+    name: 'tesla',
+    type: 'texture',
+    path: '/images/tesla.jpeg'
+  },
+  {
     name: 'bw',
     type: 'texture',
     path: '/images/bw.jpg'

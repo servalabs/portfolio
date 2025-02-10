@@ -31,8 +31,8 @@ function About() {
                   i18nKey={`about.intro.0`}
                   components={{
                     ImageVenice: <ImageTrigger name="venice" />,
-                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />,
-                    ImageTesla: <ImageTrigger name="tesla" />
+                    ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />
                   }}
                 />
               </div>
@@ -62,8 +62,8 @@ function About() {
                   i18nKey={`about.intro.${i + 2}`}
                   components={{
                     ImageVenice: <ImageTrigger name="venice" />,
-                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />,
-                    ImageTesla: <ImageTrigger name="tesla" />
+                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[3, 4]} />,
+                    ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />
                   }}
                 />
               </div>
@@ -93,6 +93,7 @@ function About() {
                     i18nKey={`about.clan.${i}`}
                     components={{
                       ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                      ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
                       ImageNO1: <ImageTrigger name="no1" />,
                       ImageNO2: <ImageTrigger name="no2" />,
                       ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
@@ -108,6 +109,7 @@ function About() {
                     i18nKey={`about.clan.${i + 2}`}
                     components={{
                       ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                      ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
                       ImageNO1: <ImageTrigger name="no1" />,
                       ImageNO2: <ImageTrigger name="no2" />,
                       ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
@@ -132,7 +134,15 @@ function About() {
         <Row start={2} end={1}>
           <ContentBlock key={method[0]}>
             <div>
-              <Trans i18nKey={`about.method.0`} />
+              <Trans i18nKey={`about.method.0`}   components={{
+                  ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                  ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                  ImageTesla: <ImageTrigger name="pow" sizes={[2, 3]} />,
+                  ImageNO1: <ImageTrigger name="no1" />,
+                  ImageNO2: <ImageTrigger name="no2" />,
+                  ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                }}
+              />
             </div>
           </ContentBlock>
         </Row>
