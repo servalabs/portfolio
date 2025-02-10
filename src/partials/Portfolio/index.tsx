@@ -7,7 +7,7 @@ import Container, { Row } from 'components/Container'
 import ContentBlock from 'components/ContentBlock'
 import Heading from 'components/Heading'
 import { Trans } from 'react-i18next'
-
+import ImageTrigger from 'components/ImageTrigger'
 // Hooks
 import { useTranslation } from 'react-i18next'
 
@@ -45,7 +45,16 @@ function Portfolio() {
         <Row start={2} end={1}>
           <ContentBlock>
             <div>
-              <Trans i18nKey="portfolio.portfolio.1" />
+              <Trans
+                i18nKey="portfolio.portfolio.1"
+                components={{
+                  ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                  ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                  ImageNO1: <ImageTrigger name="no1" />,
+                  ImageNO2: <ImageTrigger name="no2" />,
+                  ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                }}
+              />
               <Trans i18nKey="portfolio.portfolio.2" />
             </div>
           </ContentBlock>
@@ -81,7 +90,6 @@ function Portfolio() {
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
       </video>
-      
     </Section>
   )
 }

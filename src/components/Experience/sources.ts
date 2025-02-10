@@ -75,6 +75,11 @@ const sources: Sources = [
     path: '/textures/noise/noise.jpeg'
   },
   {
+    name: 'pow',
+    type: 'texture',
+    path: '/images/battery.png'
+  },
+  {
     name: 'manVibrantSkin',
     type: 'texture',
     path: '/textures/outline/2c.jpg'
@@ -123,6 +128,16 @@ const sources: Sources = [
     name: 'no2',
     type: 'texture',
     path: '/images/no2.jpg'
+  },
+  {
+    name: 'aicoder',
+    type: 'texture',
+    path: '/images/plaud-ai-recorder.jpg'
+  },
+  {
+    name: 'rocket',
+    type: 'texture',
+    path: '/images/rocket-eg.jpg'
   },
   {
     name: 'no3',

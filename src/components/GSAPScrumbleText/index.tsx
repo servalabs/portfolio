@@ -31,7 +31,7 @@ function GSAPScrumbleText({ content, paused }: Props) {
     if (tl.current) {
       tl.current.kill()
     }
-    tl.current = gsap.timeline({ paused, delay: 4 })
+    tl.current = gsap.timeline({ paused, delay: 2 })
     const delay = 1
 
     for (let i = 0; i < content.length; i++) {
