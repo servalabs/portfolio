@@ -120,8 +120,8 @@ export default class Portfolio {
         video: document.getElementById('skReel') as HTMLVideoElement
       },
       {
-        name: '#',
-        url: 'sketchin',
+        name: 'ServaLabs',
+        url: '#',
         video: document.getElementById('skReel') as HTMLVideoElement
       },
       {
@@ -129,7 +129,7 @@ export default class Portfolio {
         url: '',
         video: document.getElementById('skReel') as HTMLVideoElement
       },
-      { 
+      {
         name: 'I have',
         url: '',
         video: document.getElementById('aqReel') as HTMLVideoElement
@@ -144,7 +144,6 @@ export default class Portfolio {
         url: '',
         video: document.getElementById('feudiReel') as HTMLVideoElement
       }
-       
     ]
 
     this.debug = this.experience.debug
