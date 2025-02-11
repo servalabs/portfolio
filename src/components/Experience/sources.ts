@@ -107,7 +107,7 @@ const sources: Sources = [
   {
     name: 'pow',
     type: 'texture',
-    path: '/images/battery.jpeg'
+    path: '/images/battery.png'
   },
   {
     name: 'tesla',

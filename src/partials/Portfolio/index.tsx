@@ -6,11 +6,23 @@ import Section from 'components/Section'
 import Container, { Row } from 'components/Container'
 import ContentBlock from 'components/ContentBlock'
 import Heading from 'components/Heading'
-import { Trans } from 'react-i18next'
+ 
 import ImageTrigger from 'components/ImageTrigger'
+import style from './index.module.css'
+
+// Components
+import Section from 'components/Section'
+import Container, { Row } from 'components/Container'
+import ContentBlock from 'components/ContentBlock'
+import ImageTrigger from 'components/ImageTrigger'
+import Square from 'components/Square'
+import Heading from 'components/Heading'
+import { List, ListItem } from 'components/List'
 
 // Hooks
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
+// Hooks
+ 
 
 function Portfolio() {
   const { t } = useTranslation('translation', { keyPrefix: 'portfolio' })
@@ -24,7 +36,16 @@ function Portfolio() {
           <Heading misaligned key={intro[0]}>
             <>
               <pre className={style.pre}>{intro[0]}</pre>
-              <Trans i18nKey="portfolio.intro.1" />
+              <Trans
+                i18nKey="portfolio.intro.1"
+                components={{
+                  ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                  ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                  ImageNO1: <ImageTrigger name="no1" />,
+                  ImageNO2: <ImageTrigger name="no2" />,
+                  ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                }}
+              />
             </>
           </Heading>
         </Row>
@@ -32,7 +53,14 @@ function Portfolio() {
       <Container grid key={intro[2]}>
         <Row start={3} end={1}>
           <ContentBlock>
-            <div>{intro[2]}</div>
+            <Trans
+              i18nKey="portfolio.intro.2"
+              components={{
+                ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />
+              }}
+            />
+        
             <div>{intro[3]}</div>
           </ContentBlock>
         </Row>
