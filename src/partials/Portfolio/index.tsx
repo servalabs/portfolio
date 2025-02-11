@@ -2,13 +2,7 @@
 import style from './index.module.css'
 
 // Components
-import Section from 'components/Section'
-import Container, { Row } from 'components/Container'
-import ContentBlock from 'components/ContentBlock'
-import Heading from 'components/Heading'
- 
-import ImageTrigger from 'components/ImageTrigger'
-import style from './index.module.css'
+
 
 // Components
 import Section from 'components/Section'
@@ -108,16 +102,16 @@ function Portfolio() {
         <source src="/projects/sk/sk-reel.mp4" type="video/mp4" />
       </video>
       <video id="skReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/aq/reel-aq.mp4" type="video/mp4" />
+        <source src="/projects/aq/1.mp4" type="video/mp4" />
       </video>
       <video id="fbReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/fb/fb-reel.mp4" type="video/mp4" />
+        <source src="/projects/fb/2.mp4" type="video/mp4" />
       </video>
       <video id="feudiReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/feudi/feudi-reel.mp4" type="video/mp4" />
+        <source src="/projects/feudi/3.mp4" type="video/mp4" />
       </video>
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
+        <source src="/projects/claraluna/4.mp4" type="video/mp4" />
       </video>
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
