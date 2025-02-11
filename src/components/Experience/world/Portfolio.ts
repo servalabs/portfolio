@@ -133,27 +133,8 @@ export default class Portfolio {
         name: 'Feudi',
         url: 'feudi',
         video: document.getElementById('feudiReel') as HTMLVideoElement
-      },
-      {
-        name: 'Claraluna',
-        url: 'claraluna',
-        video: document.getElementById('claralunaReel') as HTMLVideoElement
-      },
-      {
-        name: 'Claraluna',
-        url: 'claraluna',
-        video: document.getElementById('claralunaReel') as HTMLVideoElement
-      },
-      {
-        name: 'Claraluna',
-        url: 'claraluna',
-        video: document.getElementById('claralunaReel') as HTMLVideoElement
-      },
-      {
-        name: 'Claraluna',
-        url: 'claraluna',
-        video: document.getElementById('claralunaReel') as HTMLVideoElement
       }
+       
     ]
 
     this.debug = this.experience.debug
