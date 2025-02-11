@@ -31,8 +31,8 @@ function About() {
                   i18nKey={`about.intro.0`}
                   components={{
                     ImageVenice: <ImageTrigger name="venice" />,
-                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />,
-                    ImageTesla: <ImageTrigger name="tesla" />
+                    ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />
                   }}
                 />
               </div>
@@ -137,7 +137,7 @@ function About() {
               <Trans i18nKey={`about.method.0`}   components={{
                   ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
                   ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
-                  ImageBatt: <ImageTrigger name="pow" sizes={[2, 3]} />,
+                  ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />,
                   ImageNO1: <ImageTrigger name="no1" />,
                   ImageNO2: <ImageTrigger name="no2" />,
                   ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
