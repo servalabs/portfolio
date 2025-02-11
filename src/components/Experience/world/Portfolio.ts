@@ -115,23 +115,33 @@ export default class Portfolio {
 
     this.projects = [
       {
-        name: 'Sketchin',
+        name: 'TECHGG',
+        url: 'https://techgg.org/',
+        video: document.getElementById('skReel') as HTMLVideoElement
+      },
+      {
+        name: '#',
         url: 'sketchin',
         video: document.getElementById('skReel') as HTMLVideoElement
       },
       {
-        name: 'AQuest',
-        url: 'aquest',
+        name: 'Brands',
+        url: '',
+        video: document.getElementById('skReel') as HTMLVideoElement
+      },
+      { 
+        name: 'I have',
+        url: '',
         video: document.getElementById('aqReel') as HTMLVideoElement
       },
       {
-        name: 'Fastweb',
-        url: 'fastweb',
+        name: 'Worked',
+        url: '',
         video: document.getElementById('fbReel') as HTMLVideoElement
       },
       {
-        name: 'Feudi',
-        url: 'feudi',
+        name: 'with',
+        url: '',
         video: document.getElementById('feudiReel') as HTMLVideoElement
       }
        

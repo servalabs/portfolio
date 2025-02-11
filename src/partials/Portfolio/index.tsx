@@ -104,6 +104,12 @@ function Portfolio() {
       <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/aq/1.mp4" type="video/mp4" />
       </video>
+      <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/aq/1.mp4" type="video/mp4" />
+      </video>
+      <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/aq/1.mp4" type="video/mp4" />
+      </video>
  
     </Section>
   )
