@@ -32,17 +32,23 @@
     "intro": [
       "I help",
       "COMPANIES BUILD STUFF & <br /> MARKET THEM",
-      "From AI Recorder to a <ImagePow>Powerbank</ImagePow>","with an OS"
+      "From AI Recorder to a <ImagePow>Powerbank</ImagePow>",
+      "with an OS"
     ],
     "portfolio": [
       "Portfolio",
       "From leading tech brands like <strong>Lenovo </strong>and <strong>Kingston</strong> to AI startups such as <strong>mymind (AI-powered second brain)</strong>, I've worked across several domains developing my intuition.<br /><br />",
-      "Explore my work below!"
+      "Explore my work below!"
+    ],
+    "pd": [
+      "Product Design",
+      "I specialize in creating intuitive and engaging product experiences. From concept to completion, I focus on user-centered design principles that drive innovation and solve real problems.<br /><br />",
+      "Check out my product design projects below!"
     ]
   },
   "about": {
     "intro": [
-      "I’m innately curious, and my only addictions are Coke (the drink) and knowledge. ",
+      "I'm innately curious, and my only addictions are Coke (the drink) and knowledge. ",
       "Today,<br /> I run two things:",
       "<strong>techgg.org</strong>, a media company dissecting the latest in tech, gadgets, and AI.",
       "Second is an Hardware startup.",
@@ -52,12 +58,12 @@
     "clan": [
       "<strong>ServaLabs</strong>, a hardware startup decentralizing Compute & Data. Our product, the iServer, replaces *all traditional IT hardware and software in companies. <ImageBW>Starcraft: Brood War</ImageBW>.",
       "At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first <ImageNO2>Numbers One</ImageNO2> website.",
-      "You can also find me exploring Neuroscience, Mental Models, History & GeopoliticsI give talks diving into AI’s actual capabilities and limits, and I love extrapolating its ripple effects.",
+      "You can also find me exploring Neuroscience, Mental Models, History & GeopoliticsI give talks diving into AI's actual capabilities and limits, and I love extrapolating its ripple effects.",
       "TEST5"
     ],
-    "method_title": "As a kid, <br/>I tried a bunch of things:",
+    "method_title": "As a kid, <br/>I tried a bunch of things:",
     "method": [
-      "High-voltage physics experiments like <ImageTesla> tesla coils </ImageTesla>.<br/>Building websites and tinkering with tech.<br/>Playing with model rockets.",
+      "High-voltage physics experiments like <ImageTesla> tesla coils </ImageTesla>.<br/>Building websites and tinkering with tech.<br/>Playing with model rockets.",
       "The only true wisdom is knowing <br />you know nothing",
       "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth",
       "If international recognition comes on top of that, it is a greater satisfaction."
