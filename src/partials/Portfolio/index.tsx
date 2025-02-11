@@ -1,13 +1,5 @@
 // Style
-import style from './index.module.css'
 
-// Components
-import Section from 'components/Section'
-import Container, { Row } from 'components/Container'
-import ContentBlock from 'components/ContentBlock'
-import Heading from 'components/Heading'
- 
-import ImageTrigger from 'components/ImageTrigger'
 import style from './index.module.css'
 
 // Components
@@ -111,7 +103,7 @@ function Portfolio() {
         <source src="/projects/aq/1.mp4" type="video/mp4" />
       </video>
       <video id="fbReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/fb/3.mp4" type="video/mp4" />
+        <source src="/projects/fb/2.mp4" type="video/mp4" />
       </video>
       <video id="feudiReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/feudi/4.mp4" type="video/mp4" />
