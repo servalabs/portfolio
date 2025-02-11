@@ -2,6 +2,13 @@
 import style from './index.module.css'
 
 // Components
+import Section from 'components/Section'
+import Container, { Row } from 'components/Container'
+import ContentBlock from 'components/ContentBlock'
+import Heading from 'components/Heading'
+ 
+import ImageTrigger from 'components/ImageTrigger'
+import style from './index.module.css'
 
 // Components
 import Section from 'components/Section'
@@ -15,6 +22,7 @@ import { List, ListItem } from 'components/List'
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
 // Hooks
+ 
 
 function Portfolio() {
   const { t } = useTranslation('translation', { keyPrefix: 'portfolio' })
@@ -52,7 +60,7 @@ function Portfolio() {
                 ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />
               }}
             />
-
+        
             <div>{intro[3]}</div>
           </ContentBlock>
         </Row>
@@ -103,13 +111,13 @@ function Portfolio() {
         <source src="/projects/aq/1.mp4" type="video/mp4" />
       </video>
       <video id="fbReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/fb/2.mp4" type="video/mp4" />
+        <source src="/projects/fb/3.mp4" type="video/mp4" />
       </video>
       <video id="feudiReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/feudi/3.mp4" type="video/mp4"/>
+        <source src="/projects/feudi/4.mp4" type="video/mp4" />
       </video>
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
-        <source src="/projects/claraluna/4.mp4" type="video/mp4" />
+        <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
       </video>
       <video id="claralunaReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/claraluna/claraluna-reel.mp4" type="video/mp4" />
