@@ -30,8 +30,8 @@
   },
   "portfolio": {
     "intro": [
-      "I help",
-      "COMPANIES BUILD STUFF & <br /> MARKET THEM",
+      "",
+      "Hey, I’m Saumya.",
       "From AI Recorder to a <ImagePow>Powerbank</ImagePow>",
       "with an OS"
     ],
@@ -70,7 +70,7 @@
     ]
   },
   "contact": {
-    "intro": "For a cup of coffee or a discussion on philosophy, get in touch!",
-    "social_intro": "Thanks!"
+    "intro": "Want to Collaborate?",
+    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br / >Got a game-changing product in the works? I’m all ears. "
   }
 }
