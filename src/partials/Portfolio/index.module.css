@@ -1,6 +1,8 @@
 .root {
   @mixin body-2;
-
+ 
+    font-size: 20px; /* Increase/decrease as needed */
+ 
   position: relative;
   z-index: 1;
   padding-top: calc(15vh + var(--fs-display-1) + var(--spc-10));
@@ -24,7 +26,7 @@
 }
 
 .cardContainer {
-  height: 200vh;
+  height: 400vh;
 }
 
 .video {

@@ -72,7 +72,7 @@ function About() {
         </Row>
       </Container>
       <Container grid outerRightOnMobile>
-        <Row start={2} end={2}>
+        <Row start={2} end={3}>
           <div className={style.section}>
             <Heading alignRight key={clanTitle[0]}>
               <>
@@ -84,7 +84,7 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={2}>
+        <Row start={2} end={3}>
           <div className={style.columns}>
             <ContentBlock key={clan[0]}>
               {clan.slice(0, 2).map((txt, i) => (
@@ -102,11 +102,65 @@ function About() {
                 </div>
               ))}
             </ContentBlock>
-            <ContentBlock key={clan[2]}>
+            <ContentBlock key={clan[1]}>
               {clan.slice(2).map((txt, i) => (
                 <div key={i}>
                   <Trans
                     i18nKey={`about.clan.${i + 2}`}
+                    components={{
+                      ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                      ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                      ImageNO1: <ImageTrigger name="no1" />,
+                      ImageNO2: <ImageTrigger name="no2" />,
+                      ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                    }}
+                  />
+                </div>
+              ))}
+            </ContentBlock>
+          </div>
+        </Row>
+      </Container>
+      <Container grid>
+        <Row start={2} end={3}>
+          <div className={style.columns}>
+            <ContentBlock key={clan[2]}>
+              {clan.slice(0, 2).map((txt, i) => (
+                <div key={i}>
+                  <Trans
+                    i18nKey={`about.clan.${i + 3}`}
+                    components={{
+                      ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                      ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                      ImageNO1: <ImageTrigger name="no1" />,
+                      ImageNO2: <ImageTrigger name="no2" />,
+                      ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                    }}
+                  />
+                </div>
+              ))}
+            </ContentBlock>
+            <ContentBlock key={clan[3]}>
+              {clan.slice(2).map((txt, i) => (
+                <div key={i}>
+                  <Trans
+                    i18nKey={`about.clan.${i + 4}`}
+                    components={{
+                      ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
+                      ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
+                      ImageNO1: <ImageTrigger name="no1" />,
+                      ImageNO2: <ImageTrigger name="no2" />,
+                      ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
+                    }}
+                  />
+                </div>
+              ))}
+            </ContentBlock>
+            <ContentBlock key={clan[4]}>
+              {clan.slice(2).map((txt, i) => (
+                <div key={i}>
+                  <Trans
+                    i18nKey={`about.clan.${i + 5}`}
                     components={{
                       ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
                       ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
@@ -131,7 +185,7 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={1}>
+        <Row start={1} end={3}>
           <ContentBlock key={method[0]}>
             <div>
               <Trans i18nKey={`about.method.0`}   components={{

@@ -32,13 +32,17 @@
     "intro": [
       "",
       "Hey, I’m Saumya.",
-      "From AI Recorder to a <ImagePow>Powerbank</ImagePow>",
+      "A builder, a systems thinker, and someone who doesn’t settle for “good enough.”",
+      "I help build & market products—from an AI-powered recorder to an e-scooter.",
+      "I analyze technology—examining what works, what doesn’t, and why it matters.",
+      "I create leverage—turning scattered ideas into scalable solutions.",
       "with an OS"
     ],
     "portfolio": [
-      "Portfolio",
-      "From leading tech brands like <strong>Lenovo </strong>and <strong>Kingston</strong> to AI startups such as <strong>mymind (AI-powered second brain)</strong>, I've worked across several domains developing my intuition.<br /><br />",
-      "Explore my work below!"
+      "What I’m Up To",
+      "I run <strong> two </strong>ventures at the intersection of technology, business, and impact:<br /><br />",
+      "1. <strong>TechGG.org</strong> – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
+      "2. <strong>ServaLabs</strong> – A hardware startup replacing your entire IT infrastructure & subscriptions with a single system."
     ],
     "pd": [
       "Product Design",
@@ -51,15 +55,17 @@
       "I'm innately curious, and my only addictions are Coke (the drink) and knowledge. ",
       "Today,<br /> I run two things:",
       "<strong>techgg.org</strong>, a media company dissecting the latest in tech, gadgets, and AI.",
-      "Second is an Hardware startup.",
+      "Second is a hardware startup.",
       "Which Replaces your entire IT Hardware & 15 Cloud Services."
     ],
     "clan_title": ["Serva", "Labs"],
     "clan": [
-      "<strong>ServaLabs</strong>, a hardware startup decentralizing Compute & Data. Our product, the iServer, replaces *all traditional IT hardware and software in companies. <ImageBW>Starcraft: Brood War</ImageBW>.",
-      "At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first <ImageNO2>Numbers One</ImageNO2> website.",
-      "You can also find me exploring Neuroscience, Mental Models, History & GeopoliticsI give talks diving into AI's actual capabilities and limits, and I love extrapolating its ripple effects.",
-      "TEST5"
+      "<strong>ServaLabs</strong>, our flagship product iServe actually revolutionizes IT Infrastructure",
+      "Replaces your entire IT setup & 15 cloud services",
+      "Cuts costs by 60% and boosts productivity by 30%",
+      "Runs AI automation right out of the box",
+      "No unnecessary fluff or inflated subscriptions—just tech that works.",
+      ""
     ],
     "method_title": "As a kid, <br/>I tried a bunch of things:",
     "method": [
@@ -71,6 +77,27 @@
   },
   "contact": {
     "intro": "Want to Collaborate?",
-    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br / >Got a game-changing product in the works? I’m all ears. "
+    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br / >Got a game-changing product in the works? I’m all ears. ",
+    "email_contact": {
+      "review": "partner@saumyas.com",
+      "general": "hi@saumyas.com"
+    },
+    "collaborations": [
+      "Replaces your entire IT setup & 15 cloud services",
+      "Cuts costs by 60% and boosts productivity by 30%",
+      "Runs AI automation right out of the box"
+    ]
+  },
+  "ventures": {
+    "techgg": [
+      "TechGG.org – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
+      "If you want your product in front of the right audience—send me a review unit. No generic unboxings here. I break down real-world performance, usability, and market fit.",
+      "I also contribute to enostech.com and collaborate with brands looking to stand out."
+    ],
+    "servalabs": [
+      "At ServaLabs, our flagship product iServe actually revolutionizes IT Infrastructure",
+      "No unnecessary fluff or inflated subscriptions—just tech that works.",
+      "We’re replacing traditional IT hardware and software with a single, more efficient system."
+    ]
   }
 }
