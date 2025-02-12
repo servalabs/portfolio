@@ -8,69 +8,96 @@
   "close": "Close",
   "close project": "Close this project",
   "go to project": "Go to",
+  
   "intro": {
     "p1": {
-      "l1": "I'm a Saumya",
-      "l2": "A curious builder"
+      "l1": "I'm Saumya",
+      "l2": "A builder, a systems thinker, and someone who doesn’t settle for 'good enough.'"
     },
     "p2": {
-      "l1": "Plan like the military",
-      "l2": "Think like a Philosopher"
+      "l1": "I help build & market products—from an AI-powered recorder to an e-scooter.",
+      "l2": "I analyze technology—examining what works, what doesn’t, and why it matters."
     },
     "p3": {
-      "l1": "Dream like an Artist"
+      "l1": "I create leverage—turning scattered ideas into scalable solutions."
     },
     "p4": {
-      "l1": "Persevere like an Athlete"
+      "l1": "I tackle every challenge with a mindset of constant questioning and refinement."
     },
     "scroll_cta": {
       "line1": "Scroll down",
       "line2": "to know more"
     }
   },
+
   "portfolio": {
     "intro": [
-      "",
       "Hey, I’m Saumya.",
-      "From AI Recorder to a <ImagePow>Powerbank</ImagePow>",
-      "with an OS"
+      "A builder, a systems thinker, and someone who doesn’t settle for 'good enough.'",
+      "I help build & market products—from an AI-powered recorder to an e-scooter.",
+      "I analyze technology—examining what works, what doesn’t, and why it matters."
     ],
     "portfolio": [
       "Portfolio",
-      "From leading tech brands like <strong>Lenovo </strong>and <strong>Kingston</strong> to AI startups such as <strong>mymind (AI-powered second brain)</strong>, I've worked across several domains developing my intuition.<br /><br />",
+      "From leading tech brands like <strong>Lenovo</strong> and <strong>Kingston</strong> to AI startups such as <strong>mymind (AI-powered second brain)</strong>, I've worked across several domains developing my intuition.<br /><br />",
       "Explore my work below!"
     ],
     "pd": [
       "Product Design",
       "I specialize in creating intuitive and engaging product experiences. From concept to completion, I focus on user-centered design principles that drive innovation and solve real problems.<br /><br />",
       "Check out my product design projects below!"
+    ],
+    "companies": [
+      "TechGG – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
+      "ServaLabs – A hardware startup replacing your entire IT infrastructure & subscriptions with a single system."
+    ],
+    "projects": [
+      "Scooway e-Scooter",
+      "Sharge 100 Powerbank (100W Powerbank with OS and display)",
+      "Zimaboard (Single-board computer)",
+      "mymind (AI-powered second brain)",
+      "Plaud Note (AI recorder that sticks to your phone)"
     ]
   },
+
   "about": {
     "intro": [
-      "I'm innately curious, and my only addictions are Coke (the drink) and knowledge. ",
+      "I'm innately curious, and my only addictions are Coke (the drink) and knowledge.",
       "Today,<br /> I run two things:",
-      "<strong>techgg.org</strong>, a media company dissecting the latest in tech, gadgets, and AI.",
-      "Second is an Hardware startup.",
-      "Which Replaces your entire IT Hardware & 15 Cloud Services."
+      "<strong>TechGG.org</strong>, a media company dissecting the latest in tech, gadgets, and AI.",
+      "Second is a Hardware startup.",
+      "Which replaces your entire IT Hardware & 15 Cloud Services."
     ],
     "clan_title": ["Serva", "Labs"],
     "clan": [
-      "<strong>ServaLabs</strong>, a hardware startup decentralizing Compute & Data. Our product, the iServer, replaces *all traditional IT hardware and software in companies. <ImageBW>Starcraft: Brood War</ImageBW>.",
-      "At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first <ImageNO2>Numbers One</ImageNO2> website.",
-      "You can also find me exploring Neuroscience, Mental Models, History & GeopoliticsI give talks diving into AI's actual capabilities and limits, and I love extrapolating its ripple effects.",
-      "TEST5"
+      "<strong>ServaLabs</strong>, a hardware startup decentralizing Compute & Data. Our product, the iServe, replaces *all traditional IT hardware and software in companies.",
+      "At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first websites.",
+      "You can also find me exploring Neuroscience, Mental Models, History & Geopolitics. I give talks diving into AI's actual capabilities and limits, and I love extrapolating its ripple effects."
     ],
     "method_title": "As a kid, <br/>I tried a bunch of things:",
     "method": [
-      "High-voltage physics experiments like <ImageTesla> tesla coils </ImageTesla>.<br/>Building websites and tinkering with tech.<br/>Playing with model rockets.",
-      "The only true wisdom is knowing <br />you know nothing",
-      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth",
-      "If international recognition comes on top of that, it is a greater satisfaction."
+      "Worked with Tesla Coils.",
+      "Built & launched model rockets.",
+      "Created websites before TechGG.",
+      "The only true wisdom is knowing <br />you know nothing.",
+      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth."
     ]
   },
+
   "contact": {
     "intro": "Want to Collaborate?",
-    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br / >Got a game-changing product in the works? I’m all ears. "
+    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br />Got a game-changing product in the works? I’m all ears.",
+    "email_review": "Email: partner@saumyas.com (For product reviews & collaborations)",
+    "email_general": "Email: hi@saumyas.com",
+    "connect": "If you’re up for a coffee, a debate on AI, or building the next big thing—reach out."
+  },
+
+  "iserve": {
+    "intro": "At ServaLabs, our flagship product iServe actually revolutionizes IT Infrastructure.",
+    "key_points": [
+      "Replaces your entire IT setup & 15 cloud services.",
+      "Cuts costs by 60% and boosts productivity by 30%.",
+      "Runs AI automation right out of the box."
+    ]
   }
 }

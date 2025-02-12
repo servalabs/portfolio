@@ -31,8 +31,8 @@ function About() {
                   i18nKey={`about.intro.0`}
                   components={{
                     ImageVenice: <ImageTrigger name="venice" />,
-                    ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
-                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />
+                    ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />,
+                    ImageTesla: <ImageTrigger name="tesla" />
                   }}
                 />
               </div>
@@ -134,10 +134,12 @@ function About() {
         <Row start={2} end={1}>
           <ContentBlock key={method[0]}>
             <div>
-              <Trans i18nKey={`about.method.0`}   components={{
+              <Trans
+                i18nKey={`about.method.0`}
+                components={{
                   ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
                   ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
-                  ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />,
+                  ImageBatt: <ImageTrigger name="pow" sizes={[2, 3]} />,
                   ImageNO1: <ImageTrigger name="no1" />,
                   ImageNO2: <ImageTrigger name="no2" />,
                   ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
@@ -172,14 +174,10 @@ function About() {
       </Container>
       <Container grid>
         <Row start={1} end={3}>
-          <ContentBlock>
-            <List>
-              <ListItem end="x6">Awwwards</ListItem>
-              <ListItem end="x6">CSS Design Awards</ListItem>
-              <ListItem end="x1">FWA</ListItem>
-              <ListItem end="x3">iF Design Award</ListItem>
-              <ListItem end="x8">Other</ListItem>
-            </List>
+          <ContentBlock key={method[3]}>
+            <div>
+              <Trans i18nKey={`about.method.3`} />
+            </div>
           </ContentBlock>
         </Row>
       </Container>
