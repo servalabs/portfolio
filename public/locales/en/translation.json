@@ -63,26 +63,23 @@
       "<strong>Cuts costs by 60% and boosts productivity by 30%</strong>",
       "<strong>Runs AI automation right out of the box</strong>",
       "<strong>No unnecessary fluff or inflated subscriptions—just tech that works.</strong>"
-    
     ],
-    "method_title": "As a kid, <br/>I tried a bunch of things:",
+    "method_title": "   <br />       <br />As a kid, <br/>I tried a bunch of things:",
     "method": [
       "Worked with  <ImageTesla> Tesla coils </ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
       "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/> it changes how people think or operate, count me in.",
       "The only true wisdom is knowing <br />you know nothing",
       "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth"
-   
     ]
   },
- 
+
   "contact": {
     "intro": "For product reviews & collaborations",
     "social_intro": "Thanks!"
   },
-  
+
   "contact2": {
     "intro": "If you’re up for a coffee, a debate on AI, or building the next big thing—reach out.",
     "social_intro": "Thanks!"
   }
-  
 }

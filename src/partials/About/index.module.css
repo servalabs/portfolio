@@ -7,7 +7,7 @@
   margin-top: calc(var(--app-height) / 2);
   margin-bottom: 300vh;
   color: var(--color-white);
-font-size:20px;
+font-size:16px;
   @media (--md-l) {
     margin-top: var(--app-height);
   }

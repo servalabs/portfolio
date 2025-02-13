@@ -152,12 +152,12 @@ const sources: Sources = [
   {
     name: 'IMS',
     type: 'texture',
-    path: '/images/IMS.jpg'
+    path: '/images/IMS.png'
   },
   {
     name: 'IMSS',
     type: 'texture',
-    path: '/images/IMSS.png'
+    path: '/images/IMSS.jpg'
   },
   {
     name: 'IMPA',

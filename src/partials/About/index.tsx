@@ -20,12 +20,12 @@ const imageComponents = {
   ImageNO2: <ImageTrigger name="no2" />,
   ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />,
   IMZ: <ImageTrigger name="IMZ" />,
-  IMSS: <ImageTrigger name="IMSS" sizes={[2, 2.5]} />,
-  IMS: <ImageTrigger name="IMS" sizes={[2, 2.5]} />,
+  IMSS: <ImageTrigger name="IMSS"  />,
+  IMS: <ImageTrigger name="IMS"  />,
   IMMM: <ImageTrigger name="IMMM" />,
   IMPA: <ImageTrigger name="IMPA" />,
-  IMT: <ImageTrigger name="IMT" sizes={[2, 2.5]} />,
-  IMR: <ImageTrigger name="rocket" sizes={[2, 2.5]} />
+  IMT: <ImageTrigger name="IMT"  />,
+  IMR: <ImageTrigger name="rocket"  />
 }
 
 function About() {

@@ -13,8 +13,8 @@ export const section = createModel<RootModel>()({
     boundaries: [] as Boundary[],
     sections: [
       { name: 'Hello!', id: 'hero' },
-      { name: 'XPerience', id: 'portfolio' },
-      { name: 'About', id: 'about' },
+      { name: 'About', id: 'portfolio' },
+      { name: 'XPerience', id: 'about' },
       { name: 'Contact', id: 'contact' }
     ]
   },
