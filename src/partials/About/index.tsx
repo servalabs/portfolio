@@ -7,7 +7,7 @@ import ContentBlock from 'components/ContentBlock'
 import ImageTrigger from 'components/ImageTrigger'
 import Square from 'components/Square'
 import Heading from 'components/Heading'
-import Contactx from 'partials/Contact/index'
+import Contactx from 'partials/Contact2/index'
 import { List, ListItem } from 'components/List'
 
 // Hooks
@@ -40,7 +40,7 @@ function About() {
     <Section name="about" className={style.root}>
       <Container grid>
         <Row start={3} end={1}>
-          <ContentBlock key={intro[0]}>
+          <ContentBlock>
             <Trans i18nKey="about.intro.0" components={imageComponents} />
           </ContentBlock>
         </Row>
@@ -89,12 +89,15 @@ function About() {
       </Container>
 
       <Container grid outerRightOnMobile>
-        <Row start={2} end={3}>
-          <Heading alignRight>
-            {clanTitle[0]}
-            <br />
-            {clanTitle[1]}
-          </Heading>
+        <Row start={2} end={2}>
+          <div className={style.section}>
+            <Heading alignRight key={clanTitle[0]}>
+              <>
+                {clanTitle[0]}
+                <br /> {clanTitle[1]}
+              </>
+            </Heading>
+          </div>
         </Row>
       </Container>
 
@@ -169,15 +172,17 @@ function About() {
       <Container grid outerRightOnMobile>
         <Row start={1} end={3}>
           <div className={style.section}>
-            <Heading key={method[2]}>
+            <Heading>
               <Trans i18nKey="about.method.2" />
             </Heading>
-            <Heading alignRight key={method[3]}>
+            <Heading>
               <Trans i18nKey="about.method.3" />
             </Heading>
           </div>
         </Row>
       </Container>
+
+      <Contactx />
     </Section>
   )
 }

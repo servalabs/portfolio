@@ -140,8 +140,6 @@ const Portfolio: React.FC = () => {
       <video id="feudiReel" autoPlay muted loop playsInline className={style.video}>
         <source src="/projects/feudi/4.mp4" type="video/mp4" />
       </video>
-      <br />
-      <br />
     </Section>
   )
 }
