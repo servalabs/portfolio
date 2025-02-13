@@ -143,6 +143,41 @@ const sources: Sources = [
     name: 'no3',
     type: 'texture',
     path: '/images/no3.jpg'
+  },
+  {
+    name: 'IMZ',
+    type: 'texture',
+    path: '/images/IMZ.jpg'
+  },
+  {
+    name: 'IMS',
+    type: 'texture',
+    path: '/images/IMS.jpg'
+  },
+  {
+    name: 'IMSS',
+    type: 'texture',
+    path: '/images/IMSS.png'
+  },
+  {
+    name: 'IMPA',
+    type: 'texture',
+    path: '/images/IMPA.png'
+  },
+  {
+    name: 'IMT',
+    type: 'texture',
+    path: '/images/IMT.jpg'
+  },
+  {
+    name: 'IMZ',
+    type: 'texture',
+    path: '/images/IMZ.jpg'
+  },
+  {
+    name: 'IMMM',
+    type: 'texture',
+    path: '/images/IMMM.jpg'
   }
 ]
 

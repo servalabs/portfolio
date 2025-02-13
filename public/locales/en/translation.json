@@ -43,61 +43,46 @@
       "I run <strong> two </strong>ventures at the intersection of technology, business, and impact:<br /><br />",
       "1. <strong>TechGG.org</strong> – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
       "2. <strong>ServaLabs</strong> – A hardware startup replacing your entire IT infrastructure & subscriptions with a single system."
-    ],
-    "pd": [
-      "Product Design",
-      "I specialize in creating intuitive and engaging product experiences. From concept to completion, I focus on user-centered design principles that drive innovation and solve real problems.<br /><br />",
-      "Check out my product design projects below!"
     ]
   },
   "about": {
     "intro": [
       "I'm innately curious, and my only addictions are Coke (the drink) and knowledge. ",
-      "Today,<br /> I run two things:",
-      "<strong>techgg.org</strong>, a media company dissecting the latest in tech, gadgets, and AI.",
-      "Second is a hardware startup.",
-      "Which Replaces your entire IT Hardware & 15 Cloud Services."
+      "TechGG",
+      "I dive deep into cutting-edge products and help companies position themselves in a crowded market.<br/> <br /> Some of the products I’ve reviewed and advised on include:",
+      "<IMSS>Scooway</IMSS> e-Scooter",
+      "<IMS>Sharge 100 Powerbank</IMS> (100W Powerbank with OS and display)",
+      "<IMZ>Zimaboard</IMZ> (Single-board computer)",
+      "<IMMM>mymind </IMMM>(AI-powered second brain)",
+      "<IMPA>Plaud Note</IMPA> (AI recorder that sticks to your phone)"
     ],
     "clan_title": ["Serva", "Labs"],
     "clan": [
       "<strong>ServaLabs</strong>, our flagship product iServe actually revolutionizes IT Infrastructure",
-      "Replaces your entire IT setup & 15 cloud services",
-      "Cuts costs by 60% and boosts productivity by 30%",
-      "Runs AI automation right out of the box",
-      "No unnecessary fluff or inflated subscriptions—just tech that works.",
-      ""
+      "<strong>Replaces your entire IT setup & 15 cloud services</strong>",
+      "<strong>Cuts costs by 60% and boosts productivity by 30%</strong>",
+      "<strong>Runs AI automation right out of the box</strong>",
+      "<strong>No unnecessary fluff or inflated subscriptions—just tech that works.</strong>"
+    
     ],
     "method_title": "As a kid, <br/>I tried a bunch of things:",
     "method": [
-      "High-voltage physics experiments like <ImageTesla> tesla coils </ImageTesla>.<br/>Building websites and tinkering with tech.<br/>Playing with model rockets.",
+      "Worked with  <ImageTesla> Tesla coils </ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
+      "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/> it changes how people think or operate, count me in.",
       "The only true wisdom is knowing <br />you know nothing",
       "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth",
       "If international recognition comes on top of that, it is a greater satisfaction."
     ]
   },
-  "contact": {
-    "intro": "Want to Collaborate?",
-    "social_intro": "“Luck is what happens when preparation meets opportunity.” – Seneca <br / >Got a game-changing product in the works? I’m all ears. ",
-    "email_contact": {
-      "review": "partner@saumyas.com",
-      "general": "hi@saumyas.com"
-    },
-    "collaborations": [
-      "Replaces your entire IT setup & 15 cloud services",
-      "Cuts costs by 60% and boosts productivity by 30%",
-      "Runs AI automation right out of the box"
-    ]
+ 
+  "contact1": {
+    "intro": "For product reviews & collaborations",
+    "social_intro": "Thanks!"
   },
-  "ventures": {
-    "techgg": [
-      "TechGG.org – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
-      "If you want your product in front of the right audience—send me a review unit. No generic unboxings here. I break down real-world performance, usability, and market fit.",
-      "I also contribute to enostech.com and collaborate with brands looking to stand out."
-    ],
-    "servalabs": [
-      "At ServaLabs, our flagship product iServe actually revolutionizes IT Infrastructure",
-      "No unnecessary fluff or inflated subscriptions—just tech that works.",
-      "We’re replacing traditional IT hardware and software with a single, more efficient system."
-    ]
+  
+  "contact2": {
+    "intro": "If you’re up for a coffee, a debate on AI, or building the next big thing—reach out.",
+    "social_intro": "Thanks!"
   }
+  
 }

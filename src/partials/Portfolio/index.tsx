@@ -60,7 +60,7 @@ const Portfolio: React.FC = () => {
       </Container>
 
       <Container grid>
-        <Row start={1} end={3}>
+        <Row start={1} end={2}>
           <ContentBlock>
             <Trans i18nKey="portfolio.intro.2" components={imageTriggerComponents} />
             <br />
@@ -70,7 +70,7 @@ const Portfolio: React.FC = () => {
       </Container>
 
       <Container grid>
-        <Row start={2} end={2}>
+        <Row start={1} end={2}>
           <ContentBlock>
             <Trans i18nKey="portfolio.intro.3" components={imageTriggerComponents} />
           </ContentBlock>
@@ -84,9 +84,16 @@ const Portfolio: React.FC = () => {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={2}>
+        <Row start={1} end={2}>
           <ContentBlock>
             <Trans i18nKey="portfolio.intro.5" components={imageTriggerComponents} />
+          </ContentBlock>
+        </Row>
+      </Container>
+      <Container grid>
+        <Row start={1} end={2}>
+          <ContentBlock>
+            <Trans i18nKey="portfolio.intro.6" components={imageTriggerComponents} />
           </ContentBlock>
         </Row>
       </Container>
@@ -116,19 +123,11 @@ const Portfolio: React.FC = () => {
           </ContentBlock>
         </Row>
       </Container>
-
-      {/* Product Design Section */}
-      <Container grid outerRightOnMobile className={style.projectSection}>
-        <Row start={2} end={2}>
-          <Heading>{pd[0]}</Heading>
-        </Row>
-      </Container>
-
       <Container grid>
-        <Row start={2} end={1}>
+        <Row start={2} end={2}>
           <ContentBlock>
             <div>
-              <Trans i18nKey="portfolio.pd.1" components={imageTriggerComponents} />
+              <Trans i18nKey="portfolio.portfolio.3" components={imageTriggerComponents} />
             </div>
           </ContentBlock>
         </Row>
