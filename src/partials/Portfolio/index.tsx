@@ -38,13 +38,6 @@ const Portfolio: React.FC = () => {
     ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />
   }
 
-  const videos: VideoProps[] = [
-    { id: 'skReel', src: '/projects/sk/2.mp4' },
-    { id: 'fbReel', src: '/projects/fb/3.mp4' },
-    { id: 'feudiReel', src: '/projects/feudi/4.mp4' },
-    { id: 'aqReel', src: '/projects/aq/1.mp4' }
-  ]
-
   return (
     <Section name="portfolio" className={style.root}>
       {/* Intro Section */}
@@ -135,9 +128,20 @@ const Portfolio: React.FC = () => {
 
       <div className={style.cardContainer} id="card-container" />
 
-      {videos.map((video) => (
-        <VideoPlayer key={video.id} {...video} />
-      ))}
+      <video id="skReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/sk/2.mp4" type="video/mp4" />
+      </video>
+      <video id="aqReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/aq/1.mp4" type="video/mp4" />
+      </video>
+      <video id="fbReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/fb/3.mp4" type="video/mp4" />
+      </video>
+      <video id="feudiReel" autoPlay muted loop playsInline className={style.video}>
+        <source src="/projects/feudi/4.mp4" type="video/mp4" />
+      </video>
+      <br />
+      <br />
     </Section>
   )
 }

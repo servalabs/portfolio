@@ -7,6 +7,7 @@ import ContentBlock from 'components/ContentBlock'
 import ImageTrigger from 'components/ImageTrigger'
 import Square from 'components/Square'
 import Heading from 'components/Heading'
+import Contactx from 'partials/Contact/index'
 import { List, ListItem } from 'components/List'
 
 // Hooks
@@ -39,7 +40,7 @@ function About() {
     <Section name="about" className={style.root}>
       <Container grid>
         <Row start={3} end={1}>
-          <ContentBlock>
+          <ContentBlock key={intro[0]}>
             <Trans i18nKey="about.intro.0" components={imageComponents} />
           </ContentBlock>
         </Row>
@@ -168,36 +169,13 @@ function About() {
       <Container grid outerRightOnMobile>
         <Row start={1} end={3}>
           <div className={style.section}>
-            <Heading key={method[3]}>
-              <Trans i18nKey="about.method.3" />
+            <Heading key={method[2]}>
+              <Trans i18nKey="about.method.2" />
             </Heading>
             <Heading alignRight key={method[3]}>
               <Trans i18nKey="about.method.3" />
             </Heading>
           </div>
-        </Row>
-      </Container>
-      <Container grid>
-        <Row start={1} end={1}>
-          <div className={style.section}>
-            <ContentBlock key={method[4]}>
-              <div>
-                <Trans i18nKey={`about.method.4`} />
-              </div>
-            </ContentBlock>
-          </div>
-        </Row>
-      </Container>
-
-      <Container grid>
-        <Row start={1} end={3}>
-          <List>
-            <ListItem end="x6">Awwwards</ListItem>
-            <ListItem end="x6">CSS Design Awards</ListItem>
-            <ListItem end="x1">FWA</ListItem>
-            <ListItem end="x3">iF Design Award</ListItem>
-            <ListItem end="x8">Other</ListItem>
-          </List>
         </Row>
       </Container>
     </Section>
