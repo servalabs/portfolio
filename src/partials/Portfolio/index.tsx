@@ -32,10 +32,7 @@ const Portfolio: React.FC = () => {
   const imageTriggerComponents = {
     ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
     ImageTesla: <ImageTrigger name="tesla" sizes={[2, 3]} />,
-    ImageNO1: <ImageTrigger name="no1" />,
-    ImageNO2: <ImageTrigger name="no2" />,
-    ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />,
-    ImagePow: <ImageTrigger name="pow" sizes={[2, 3]} />
+    IMT: <ImageTrigger name="IMT" />
   }
 
   return (
