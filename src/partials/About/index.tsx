@@ -20,12 +20,12 @@ const imageComponents = {
   ImageNO2: <ImageTrigger name="no2" />,
   ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />,
   IMZ: <ImageTrigger name="IMZ" />,
-  IMSS: <ImageTrigger name="IMSS"  />,
-  IMS: <ImageTrigger name="IMS"  />,
+  IMSS: <ImageTrigger name="IMSS" />,
+  IMS: <ImageTrigger name="IMS" />,
   IMMM: <ImageTrigger name="IMMM" />,
   IMPA: <ImageTrigger name="IMPA" />,
-  IMT: <ImageTrigger name="IMT"  />,
-  IMR: <ImageTrigger name="rocket"  />
+  IMT: <ImageTrigger name="IMT" />,
+  IMR: <ImageTrigger name="rocket" />
 }
 
 function About() {
@@ -102,7 +102,7 @@ function About() {
       </Container>
 
       <Container grid>
-        <Row start={2} end={3}>
+        <Row start={1} end={3}>
           <div className={style.columns}>
             <ContentBlock>
               <Trans i18nKey={`about.clan.0`} components={imageComponents} />
@@ -111,7 +111,7 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={3}>
+        <Row start={1} end={3}>
           <div className={style.columns}>
             <ContentBlock>
               <Trans i18nKey={`about.clan.1`} components={imageComponents} />
@@ -120,7 +120,7 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={3}>
+        <Row start={1} end={3}>
           <div className={style.columns}>
             <ContentBlock>
               <Trans i18nKey={`about.clan.2`} components={imageComponents} />
@@ -129,7 +129,7 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={3}>
+        <Row start={1} end={3}>
           <div className={style.columns}>
             <ContentBlock>
               <Trans i18nKey={`about.clan.3`} components={imageComponents} />
@@ -138,10 +138,19 @@ function About() {
         </Row>
       </Container>
       <Container grid>
-        <Row start={2} end={3}>
+        <Row start={1} end={3}>
           <div className={style.columns}>
             <ContentBlock>
               <Trans i18nKey={`about.clan.4`} components={imageComponents} />
+            </ContentBlock>
+          </div>
+        </Row>
+      </Container>
+      <Container grid>
+        <Row start={1} end={3}>
+          <div className={style.columns}>
+            <ContentBlock>
+              <Trans i18nKey={`about.clan.5`} components={imageComponents} />
             </ContentBlock>
           </div>
         </Row>
@@ -174,9 +183,6 @@ function About() {
           <div className={style.section}>
             <Heading>
               <Trans i18nKey="about.method.2" />
-            </Heading>
-            <Heading>
-              <Trans i18nKey="about.method.3" />
             </Heading>
           </div>
         </Row>

@@ -10,8 +10,8 @@
   "go to project": "Go to",
   "intro": {
     "p1": {
-      "l1": "I'm a Saumya",
-      "l2": "A curious builder"
+      "l1": "Hey, I’m    Saumya  ",
+      "l2": "A builder from heart, a systems thinker"
     },
     "p2": {
       "l1": "Plan like the military",
@@ -31,12 +31,11 @@
   "portfolio": {
     "intro": [
       "",
-      "Hey, I’m Saumya.",
-      "A builder, a systems thinker, and someone who doesn’t settle for “good enough.”",
-      "I help build & market products—from an AI-powered recorder to an e-scooter.",
-      "I analyze technology—examining what works, what doesn’t, and why it matters.",
-      "I create leverage—turning scattered ideas into scalable solutions.",
-      "with an OS"
+      "Hey, I’m <strong>Saumya.</strong>",
+      " A builder from heart, a systems thinker ",
+      "I help build & market products—from an <IMPA>AI-powered recorder</IMPA> to an<IMSS>e-scooter</IMSS>.",
+      "I run a <strong>tech blog</strong>, analyzing what works, what doesn’t, and why it matters.",
+      "I create leverage—turning scattered ideas into scalable solutions."
     ],
     "portfolio": [
       "What I’m Up To",
@@ -47,7 +46,7 @@
   },
   "about": {
     "intro": [
-      "I'm innately curious, and my only addictions are Coke (the drink) and knowledge. ",
+      "I’m curious to my core , and my only addictions are Coke (the drink) and knowledge. ",
       "TechGG",
       "I dive deep into cutting-edge products and help companies position themselves in a crowded market.<br/> <br /> Some of the products I’ve reviewed and advised on include:",
       "<IMSS>Scooway</IMSS> e-Scooter",
@@ -58,17 +57,17 @@
     ],
     "clan_title": ["Serva", "Labs"],
     "clan": [
-      "<strong>ServaLabs</strong>, our flagship product iServe actually revolutionizes IT Infrastructure",
-      "<strong>Replaces your entire IT setup & 15 cloud services</strong>",
-      "<strong>Cuts costs by 60% and boosts productivity by 30%</strong>",
-      "<strong>Runs AI automation right out of the box</strong>",
-      "<strong>No unnecessary fluff or inflated subscriptions—just tech that works.</strong>"
+      "<strong>I founded ServaLabs</strong>, with a vision that technology and AI should drive progress—but adopting them often becomes complex.<br/>",
+      "To solve this, we created <strong>Atom</strong>, a single on-premises server that:  <br/>",
+      "<strong>Consolidates:</strong>Replaces all office PCs, servers, NAS (network storage), security firewalls, CCTV NVRs and numerous cloud services.",
+      "<strong>Cuts Costs & Boosts Productivity:</strong>Save up to 60% on IT expenses and enjoy 30% higher productivity.",
+      "<strong>Delivers AI & Automation Out of the Box:</strong>Automate repetitive tasks, deploy AI agents for quick data retrieval, and streamline everyday workflows.",
+      "<strong>Eliminates Over-Subscriptions:</strong>No more paying for multiple plans—just one integrated system that does the job."
     ],
     "method_title": "   <br />       <br />As a kid, <br/>I tried a bunch of things:",
     "method": [
       "Worked with  <ImageTesla> Tesla coils </ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
       "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/> it changes how people think or operate, count me in.",
-      "The only true wisdom is knowing <br />you know nothing",
       "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth"
     ]
   },

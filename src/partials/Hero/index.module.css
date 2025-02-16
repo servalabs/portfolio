@@ -5,6 +5,7 @@
   flex-direction: column;
   margin-bottom: 100vh;
   color: var(--color-white);
+  font-size: 20px;
 }
 
 .head {

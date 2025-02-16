@@ -1,6 +1,6 @@
 .root {
   @mixin body-2;
-
+  font-size: 20px;
   position: relative;
   z-index: 1;
   height: 50vh;
@@ -19,7 +19,7 @@
 }
 
 .section {
-  margin: var(--spc-5) 0;
+  margin: var(--spc-2) 0;
 }
 
 .emailContainer {

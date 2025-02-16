@@ -1,10 +1,11 @@
 .root {
   @mixin body-2;
-
+font-size: 20px;
   position: relative;
   z-index: 1;
   height: 50vh;
   padding-top: 50vh;
+  font-size: 20px;
 
   &,
   a {

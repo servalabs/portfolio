@@ -8,7 +8,7 @@
   padding-top: calc(15vh + var(--fs-display-1) + var(--spc-10));
   margin-top: calc(var(--app-height) / 2);
   color: var(--color-white);
-  pointer-events: none;
+   
 
   @media (--md-l) {
     height: 400vh;
@@ -26,13 +26,33 @@
 }
 
 .cardContainer {
-  height: 400vh;
+  height: 320vh;
 }
 
 .video {
   display: none;
 }
 
+.awardsTitle {
+  margin-top: var(--spc-10);
+}
+
+.section {
+  margin-top: var(--content-block-margin-top);
+}
+
+.columns {
+
+  @media (--md-l) {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spc-4);
+
+    > * {
+      flex: 1;
+    }
+  }
+}
 .projectSection {
   padding-top: 15vh;
 
