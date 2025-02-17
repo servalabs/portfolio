@@ -10,8 +10,8 @@
   "go to project": "Go to",
   "intro": {
     "p1": {
-      "l1": "Hey, I’m    Saumya  ",
-      "l2": "A builder from heart, a systems thinker"
+      "l1": "I’m    Saumya  ",
+      "l2": "A builder from heart and a systems thinker"
     },
     "p2": {
       "l1": "Plan like the military",
@@ -31,7 +31,7 @@
   "portfolio": {
     "intro": [
       "",
-      "Hey, I’m <strong>Saumya.</strong>",
+      "I’m <strong>Saumya.</strong>",
       " A builder from heart, a systems thinker ",
       "I help build & market products—from an <IMPA>AI-powered recorder</IMPA> to an<IMSS>e-scooter</IMSS>.",
       "I run a <strong>tech blog</strong>, analyzing what works, what doesn’t, and why it matters.",
