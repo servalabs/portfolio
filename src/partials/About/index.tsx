@@ -9,6 +9,7 @@ import Square from 'components/Square'
 import Heading from 'components/Heading'
 import Contactx from 'partials/Contact2/index'
 import { List, ListItem } from 'components/List'
+import ThreeJsSlider from './ThreeJsSlider' // Import the new slider component
 
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
@@ -178,17 +179,20 @@ function About() {
           </ContentBlock>
         </Row>
       </Container>
+
       <Container grid outerRightOnMobile>
         <Row start={1} end={3}>
-          <div className={style.section}>
-            <Heading>
-              <Trans i18nKey="about.method.2" />
-            </Heading>
-          </div>
+          <Heading>
+            <Trans i18nKey="about.method2_title" components={{ pre: <pre /> }} />
+          </Heading>
         </Row>
       </Container>
 
-      <Contactx />
+      {/* Add the ThreeJS Slider here, after method2_title */}
+
+      <Row start={1} end={3}>
+        <ThreeJsSlider slides={5} />
+      </Row>
     </Section>
   )
 }
