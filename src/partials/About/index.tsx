@@ -26,7 +26,9 @@ const imageComponents = {
   IMMM: <ImageTrigger name="IMMM" />,
   IMPA: <ImageTrigger name="IMPA" />,
   IMT: <ImageTrigger name="IMT" />,
-  IMR: <ImageTrigger name="rocket" />
+  IMR: <ImageTrigger name="rocket" />,
+  IMSR: <ImageTrigger name="IMSR" />
+ 
 }
 
 function About() {
@@ -188,11 +190,7 @@ function About() {
         </Row>
       </Container>
 
-      {/* Add the ThreeJS Slider here, after method2_title */}
-
-      <Row start={1} end={3}>
-        <ThreeJsSlider slides={5} />
-      </Row>
+     
     </Section>
   )
 }

@@ -48,7 +48,7 @@
   "about": {
     "intro": [
       "Curiosity drives me , My only addictions? Coke (the drink) and learning. ",
-      "TechGG (Consulting + Media)",
+      "TechGG",
       "Started as a consulting gig, now it’s a tech media platform that dives into AI, gadgets, and innovation.<br/> <br />I break down tech—what works, what sucks, and why it matters.<br/> <br />I help build & market products—from an AI-powered voice recorder to an e-scooter, and everything in between.<br/> <br />I spot trends before they go mainstream.<br/> <br /> Some cool stuff I’ve worked on:",
       "<IMSS>Scooway</IMSS> e-Scooter",
       "<IMS>Sharge 100 Powerbank</IMS> (100W Powerbank with OS and display)",
@@ -60,26 +60,27 @@
     "clan": [
       "<strong>Tech</strong> should make life easier. Right now, it doesn’t.<br/>",
       "So I built <strong>ServaLabs</strong> to fix that.<br/>",
-      "We made <strong>Atom</strong>—a single, powerful server that:",
-      "<strong>Cuts Costs & Boosts Productivity:</strong> Save 60% on IT costs while boosting productivity by 30%.",
-      "<strong>AI-Powered:</strong> Automate tasks, deploy AI agents, and optimize workflows effortlessly.",
-      ""
+      "We made <strong><IMSR>Atom</IMSR></strong>—a single, powerful server that:",
+      "Replaces office PCs, NAS, firewalls, CCTV NVRs, and 20+ cloud services.</br><strong>Cuts costs by 60%</strong> and boosts productivity by 30%.",
+      "Has <strong>AI</strong> baked in—automate tasks, deploy AI agents, and optimize workflows.",
+      "No more juggling a hundred IT systems. Just one machine that does it all."
     ],
     "method_title": "   <br />       <br />As a kid, <br/>I tried a bunch of things:",
     "method": [
       "Worked with  <ImageTesla> Tesla coils </ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
       "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/> it changes how people think or operate, count me in.",
       "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth - Aristotle"
+    ],
+    "method2_title": "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth - Aristotle",
+    "method2": [
+      "",
+      "",
+      ""
     ]
   },
 
   "contact": {
     "intro": "For product reviews & collaborations",
-    "social_intro": ""
-  },
-
-  "contact2": {
-    "intro": "If you’re up for a coffee, a debate on AI, or building the next big thing - let’s connect.",
     "social_intro": ""
   }
 }
