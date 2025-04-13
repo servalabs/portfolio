@@ -12,7 +12,6 @@ import { useCallback, useEffect, useRef, useMemo } from 'react'
 import { useDebounce } from 'hooks/useDebounce'
 
 // Components
-import TestimonialsSection from "components/ui";
 import Pointer from 'components/Pointer'
 import { ModalRoutes } from 'components/Router'
 import Modal from 'components/Modal'
@@ -128,8 +127,7 @@ function App() {
 
       <Portfolio />
       <About />
-      <Contact/>
-     
+      <Contact />
 
       {deviceHasPointer && <Pointer />}
     </>
