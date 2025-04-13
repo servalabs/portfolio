@@ -31,7 +31,6 @@ const LinkedInIcon = () => (
   </svg>
 );
 
-// Arrow icons for navigation
 const ArrowLeftIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
     <path d="M19 12H5M12 19l-7-7 7-7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -48,14 +47,13 @@ function Contact() {
   const dispatch = useDispatch()
   const { t } = useTranslation('translation', { keyPrefix: 'contact' })
   const intro = t('intro')
-  const socialIntro = t('social_intro')
-
   const { ref, inView } = useInView({
     threshold: 0.2,
     triggerOnce: true
   })
 
-  const carouselRef = useRef(null)
+  const [activeEmailIndex, setActiveEmailIndex] = useState(0)
+  const activeEmailIndexRef = useRef(0)
 
   const overHandler = useCallback(() => {
     dispatch.pointer.setType('hover')
@@ -69,7 +67,6 @@ function Contact() {
     [style.isEmailVisible]: inView
   })
 
-  // Email options for different audience types
   const emailOptions = [
     {
       type: 'brands',
@@ -94,33 +91,30 @@ function Contact() {
     }
   ]
 
-  const activeEmailIndexRef = useRef(0)
-
   const goToPrev = useCallback(() => {
-    activeEmailIndexRef.current = (activeEmailIndexRef.current === 0 ? emailOptions.length - 1 : activeEmailIndexRef.current - 1)
-    setActiveEmailIndex(activeEmailIndexRef.current)
-  }, [emailOptions.length])
+    const newIndex = activeEmailIndex === 0 ? emailOptions.length - 1 : activeEmailIndex - 1
+    activeEmailIndexRef.current = newIndex
+    setActiveEmailIndex(newIndex)
+  }, [activeEmailIndex, emailOptions.length])
 
   const goToNext = useCallback(() => {
-    activeEmailIndexRef.current = (activeEmailIndexRef.current === emailOptions.length - 1 ? 0 : activeEmailIndexRef.current + 1)
-    setActiveEmailIndex(activeEmailIndexRef.current)
-  }, [emailOptions.length])
+    const newIndex = activeEmailIndex === emailOptions.length - 1 ? 0 : activeEmailIndex + 1
+    activeEmailIndexRef.current = newIndex
+    setActiveEmailIndex(newIndex)
+  }, [activeEmailIndex, emailOptions.length])
 
   const getMailtoLink = () => {
-    const { email, subject, body } = emailOptions[activeEmailIndexRef.current]
+    const { email, subject, body } = emailOptions[activeEmailIndex]
     return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
   }
 
-  // Auto-scroll functionality
   useEffect(() => {
     const autoScrollInterval = setInterval(() => {
       goToNext()
-    }, 5000) // 5 seconds interval for auto-scroll
-
-    return () => clearInterval(autoScrollInterval) // Cleanup the interval when the component unmounts
+    }, 5000)
+    return () => clearInterval(autoScrollInterval)
   }, [goToNext])
 
-  // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'ArrowLeft') {
@@ -133,6 +127,7 @@ function Contact() {
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [goToNext, goToPrev])
+
   return (
     <Section name="contact" className={style.root}>
       <Container grid>
@@ -162,7 +157,7 @@ function Contact() {
                     >
                       <ArrowLeftIcon />
                     </button>
-                    
+
                     <div className={style.emailCarousel}>
                       <div className={style.emailContent}>
                         <a className={style.email} href={getMailtoLink()}>
@@ -173,7 +168,7 @@ function Contact() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <button 
                       type="button"
                       className={style.navButton} 
@@ -185,14 +180,17 @@ function Contact() {
                       <ArrowRightIcon />
                     </button>
                   </div>
-                  
+
                   <div className={style.emailIndicators}>
                     {emailOptions.map((option, index) => (
                       <button
                         key={option.type}
                         type="button"
                         className={cn(style.indicator, { [style.activeIndicator]: index === activeEmailIndex })}
-                        onClick={() => setActiveEmailIndex(index)}
+                        onClick={() => {
+                          activeEmailIndexRef.current = index
+                          setActiveEmailIndex(index)
+                        }}
                         onMouseEnter={overHandler}
                         onMouseLeave={outHandler}
                         aria-label={`Select ${option.label}`}
