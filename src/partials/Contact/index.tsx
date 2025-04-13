@@ -10,7 +10,7 @@ import ContentBlock from 'components/ContentBlock'
 import Heading from 'components/Heading'
 
 // Hooks
-import { useCallback } from 'react'
+import { useCallback, useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useInView } from 'react-intersection-observer'
 import { useDispatch } from 'react-redux'
@@ -31,13 +31,31 @@ const LinkedInIcon = () => (
   </svg>
 );
 
+// Arrow icons for navigation
+const ArrowLeftIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 12H5M12 19l-7-7 7-7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+const ArrowRightIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 12h14M12 5l7 7-7 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
 function Contact() {
   const dispatch = useDispatch()
   const { t } = useTranslation('translation', { keyPrefix: 'contact' })
   const intro = t('intro')
   const socialIntro = t('social_intro')
 
-  const { ref, inView } = useInView()
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: true
+  })
+
+  const carouselRef = useRef(null)
 
   const overHandler = useCallback(() => {
     dispatch.pointer.setType('hover')
@@ -51,6 +69,70 @@ function Contact() {
     [style.isEmailVisible]: inView
   })
 
+  // Email options for different audience types
+  const emailOptions = [
+    {
+      type: 'brands',
+      email: 'brands@saumyas.com',
+      subject: 'Product Positioning Inquiry',
+      body: 'Need help positioning your product? Let\'s talk.',
+      label: 'For Brands'
+    },
+    {
+      type: 'tech',
+      email: 'tech@saumyas.com',
+      subject: 'Cool Tech Recommendation',
+      body: 'Got something cool you want me to check out? Shoot it over.',
+      label: 'For Tech Lovers'
+    },
+    {
+      type: 'builders',
+      email: 'builder@saumyas.com',
+      subject: 'Let\'s Jam on Ideas',
+      body: 'Let\'s jam on ideas over coffee.',
+      label: 'For Builders'
+    }
+  ]
+
+  const activeEmailIndexRef = useRef(0)
+
+  const goToPrev = useCallback(() => {
+    activeEmailIndexRef.current = (activeEmailIndexRef.current === 0 ? emailOptions.length - 1 : activeEmailIndexRef.current - 1)
+    setActiveEmailIndex(activeEmailIndexRef.current)
+  }, [emailOptions.length])
+
+  const goToNext = useCallback(() => {
+    activeEmailIndexRef.current = (activeEmailIndexRef.current === emailOptions.length - 1 ? 0 : activeEmailIndexRef.current + 1)
+    setActiveEmailIndex(activeEmailIndexRef.current)
+  }, [emailOptions.length])
+
+  const getMailtoLink = () => {
+    const { email, subject, body } = emailOptions[activeEmailIndexRef.current]
+    return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  }
+
+  // Auto-scroll functionality
+  useEffect(() => {
+    const autoScrollInterval = setInterval(() => {
+      goToNext()
+    }, 5000) // 5 seconds interval for auto-scroll
+
+    return () => clearInterval(autoScrollInterval) // Cleanup the interval when the component unmounts
+  }, [goToNext])
+
+  // Handle keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowLeft') {
+        goToPrev()
+      } else if (e.key === 'ArrowRight') {
+        goToNext()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [goToNext, goToPrev])
   return (
     <Section name="contact" className={style.root}>
       <Container grid>
@@ -67,53 +149,64 @@ function Contact() {
             onMouseLeave={outHandler}
           >
             <Heading className={emailClasses}>
-              <div>
+              <div className={style.carouselWrapper}>
                 <div className={style.emailContainer}>
-                  <a className={style.email} href="mailto:partner@saumyas.com">
-                    partner@saumyas.com
-                  </a>
+                  <div className={style.emailSwipeContainer}>
+                    <button 
+                      type="button"
+                      className={style.navButton} 
+                      onClick={goToPrev}
+                      onMouseEnter={overHandler}
+                      onMouseLeave={outHandler}
+                      aria-label="Previous email"
+                    >
+                      <ArrowLeftIcon />
+                    </button>
+                    
+                    <div className={style.emailCarousel}>
+                      <div className={style.emailContent}>
+                        <a className={style.email} href={getMailtoLink()}>
+                          {emailOptions[activeEmailIndex].email}
+                        </a>
+                        <div className={style.emailTypeLabel}>
+                          {emailOptions[activeEmailIndex].body}
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <button 
+                      type="button"
+                      className={style.navButton} 
+                      onClick={goToNext}
+                      onMouseEnter={overHandler}
+                      onMouseLeave={outHandler}
+                      aria-label="Next email"
+                    >
+                      <ArrowRightIcon />
+                    </button>
+                  </div>
+                  
+                  <div className={style.emailIndicators}>
+                    {emailOptions.map((option, index) => (
+                      <button
+                        key={option.type}
+                        type="button"
+                        className={cn(style.indicator, { [style.activeIndicator]: index === activeEmailIndex })}
+                        onClick={() => setActiveEmailIndex(index)}
+                        onMouseEnter={overHandler}
+                        onMouseLeave={outHandler}
+                        aria-label={`Select ${option.label}`}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             </Heading>
           </div>
         </Row>
-        <Row start={1} end={1}>
-          <ContentBlock key={socialIntro}>
-            <div>{socialIntro}</div>
-          </ContentBlock>
-        </Row>
-        <Row start={2} end={1}>
-          <ContentBlock>
-            <div>
-              <ul className={style.list}>
-                <li>
-                  <a
-                    href="https://x.com/saumyashhah/"
-                    onMouseEnter={overHandler}
-                    onMouseLeave={outHandler}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <TwitterIcon /> Twitter
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://linkedin.com/in/saumyashhah/"
-                    onMouseEnter={overHandler}
-                    onMouseLeave={outHandler}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <LinkedInIcon /> LinkedIn
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </ContentBlock>
-        </Row>
       </Container>
     </Section>
   )
 }
+
 export default Contact
