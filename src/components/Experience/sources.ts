@@ -170,6 +170,11 @@ const sources: Sources = [
     path: '/images/IMT.jpg'
   },
   {
+    name: 'IMSR',
+    type: 'texture',
+    path: '/images/IMSR.jpg'
+  },
+  {
     name: 'IMZ',
     type: 'texture',
     path: '/images/IMZ.jpg'
