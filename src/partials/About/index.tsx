@@ -28,7 +28,7 @@ const imageComponents = {
   IMT: <ImageTrigger name="IMT" />,
   IMR: <ImageTrigger name="rocket" />,
   IMSR: <ImageTrigger name="IMSR" />
- 
+
 }
 
 function About() {
@@ -190,7 +190,14 @@ function About() {
         </Row>
       </Container>
 
-     
+      <Container grid>
+        <Row start={1} end={3}>
+          <div className={style.sliderWrapper}>
+            <ThreeJsSlider />
+          </div>
+        </Row>
+      </Container>
+
     </Section>
   )
 }
