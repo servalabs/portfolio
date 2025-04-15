@@ -1,114 +1,243 @@
-.sliderContainer {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    min-height: 400px;
-    margin: var(--content-block-margin-top) 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 8px;
-    cursor: pointer;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.gridItem {
+  position: relative;
+  aspect-ratio: 2/3;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gridItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gridItemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gridItemInfo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+}
+
+.gridItemContent {
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.gridItem:hover .gridItemContent {
+  transform: translateY(0);
+}
+
+.gridItemTitle {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.gridItemDesc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.modalContainer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modalContent {
+  width: 100%;
+  max-width: 600px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBook {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modalBookImage {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.modalBookInfo {
+  padding: 1rem;
+  text-align: center;
+}
+
+.modalBookTitle {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.modalBookDesc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.closeIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+}
+
+.dockContainer {
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  z-index: 101;
+}
+
+.dock {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.dockItems {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.dockItem {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.dockItemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activeDockItem {
+  border: 2px solid white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.activeGlow {
+  position: absolute;
+  inset: -0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
   }
-  
-  .threeContainer {
-    width: 100%;
-    height: 100%;
+
+  .modalBookTitle {
+    font-size: 1.5rem;
   }
-  
-  .controls {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 var(--spc-4);
-    z-index: 2;
+
+  .modalBookDesc {
+    font-size: 0.9rem;
   }
-  
-  .controlButton {
-    background: rgba(255, 255, 255, 0.15);
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: var(--color-white);
-    font-size: 24px;
-    transition: background-color 0.3s ease;
-    opacity: 0.7;
+
+  .dockItem {
+    width: 2rem;
+    height: 2rem;
   }
-  
-  .controlButton:hover {
-    background: rgba(255, 255, 255, 0.3);
-    opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.75rem;
   }
-  
-  .slideIndicators {
-    display: flex;
-    gap: var(--spc-2);
+
+  .modalBookTitle {
+    font-size: 1.2rem;
   }
-  
-  .indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-    transition: all 0.3s ease;
+
+  .modalBookDesc {
+    font-size: 0.85rem;
   }
-  
-  .indicator.active {
-    background-color: var(--color-white);
-    transform: scale(1.2);
+
+  .dockItem {
+    width: 1.75rem;
+    height: 1.75rem;
   }
-  
-  .caption {
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: var(--color-white);
-    font-size: 18px;
-    padding: 0 var(--spc-4);
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0);
-  }
-  
-  .pauseIndicator {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(249, 249, 249, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-white);
-    font-size: 16px;
-    animation: fadeIn 0.3s ease;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @media (--md-l) {
-    .sliderContainer {
-      height: 70vh;
-    }
-    
-    .controlButton {
-      width: 60px;
-      height: 60px;
-      font-size: 28px;
-    }
-  }
+}
