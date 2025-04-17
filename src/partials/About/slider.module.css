@@ -1,204 +1,89 @@
-/* slider.module.css */
-
 .sliderContainer {
-<<<<<<< HEAD
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    min-height: 400px;
-    margin: var(--content-block-margin-top) 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .threeContainer {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .controls {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 var(--spc-4);
-    z-index: 2;
-  }
-  
-  .controlButton {
-    background: rgba(255, 255, 255, 0.15);
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: var(--color-white);
-    font-size: 24px;
-    transition: background-color 0.3s ease;
-    opacity: 0.7;
-  }
-  
-  .controlButton:hover {
-    background: rgba(255, 255, 255, 0.3);
-    opacity: 1;
-  }
-  
-  .slideIndicators {
-    display: flex;
-    gap: var(--spc-2);
-  }
-  
-  .indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .indicator.active {
-    background-color: var(--color-white);
-    transform: scale(1.2);
-  }
-  
-  .caption {
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: var(--color-white);
-    font-size: 18px;
-    padding: 0 var(--spc-4);
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgba(255, 255, 255, 0);
-  }
-  
-  .pauseIndicator {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(249, 249, 249, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-white);
-    font-size: 16px;
-    animation: fadeIn 0.3s ease;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @media (--md-l) {
-    .sliderContainer {
-      height: 70vh;
-    }
-    
-    .controlButton {
-      width: 60px;
-      height: 60px;
-      font-size: 28px;
-    }
-  }
-=======
+  position: relative;
   width: 100%;
-  max-width: 1300px;
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 24px 8px;
-  background: rgba(10, 15, 60, 0.3);
-  /* semi-transparent dark blue */
-  box-sizing: border-box;
-  border-radius: 24px;
 }
 
-.imageGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 32px;
+.threeContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: transparent;
+  pointer-events: none;
 }
 
-.imageItem {
-  background: rgba(0, 0, 0, 0.18);
-  /* semi-transparent black */
-  border-radius: 20px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.controlButton {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px;
-  transition: transform 0.18s, box-shadow 0.18s;
-  min-height: 340px;
+  transition: background 0.3s ease;
 }
 
-.imageItem:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+.controlButton:hover {
+  background: rgba(255, 255, 255, 0.4);
 }
 
-.imageItem img {
-  max-width: 100%;
-  max-height: 340px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 14px;
-  background: transparent;
-  display: block;
-  margin: 0 auto;
+.slideIndicators {
+  display: flex;
+  gap: 10px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 900px) {
-  .imageGrid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 18px;
-  }
-
-  .imageItem {
-    min-height: 220px;
-    padding: 10px;
-  }
-
-  .imageItem img {
-    max-height: 220px;
-  }
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-@media (max-width: 600px) {
-  .sliderContainer {
-    padding: 8px 2px;
-    border-radius: 12px;
-  }
-
-  .imageGrid {
-    gap: 10px;
-  }
-
-  .imageItem {
-    min-height: 120px;
-    padding: 4px;
-    border-radius: 10px;
-  }
-
-  .imageItem img {
-    border-radius: 6px;
-    max-height: 120px;
-  }
+.indicator.active {
+  background: rgba(255, 255, 255, 0.8);
 }
->>>>>>> b6e7a8226a851c5a4dfc91aa64370007c8d417e5
+
+.caption {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
+.pauseIndicator {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 2;
+}
