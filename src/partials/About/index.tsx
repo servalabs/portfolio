@@ -190,7 +190,7 @@ function About() {
         </Row>
       </Container>
 
-      <Container grid>
+      <Container>
         <Row start={1} end={3}>
           <div className={style.sliderWrapper}>
             <ThreeJsSlider />

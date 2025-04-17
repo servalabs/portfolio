@@ -7,21 +7,6 @@
   margin-top: calc(var(--app-height) / 2);
   margin-bottom: 100vh;
   color: var(--color-white);
-  background-color: var(--color-black);
-  min-height: 100vh;
-  isolation: isolate;
-  overflow: hidden;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--color-black);
-    z-index: -1;
-  }
 
   @media (--md-l) {
     margin-top: var(--app-height);
@@ -46,17 +31,8 @@
     flex-direction: row;
     gap: var(--spc-4);
 
-    >* {
+    > * {
       flex: 1;
     }
   }
-}
-
-.sliderWrapper {
-  width: 100%;
-  max-width: 1200px;
-  height: 500px;
-  margin: 2rem auto;
-  position: relative;
-  z-index: 2;
 }
