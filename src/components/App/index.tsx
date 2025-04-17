@@ -5,8 +5,8 @@ import type { RootState } from 'store'
 import { cursorPosition } from 'utils/events'
 import { disablePageScroll, enablePageScroll } from 'scroll-lock'
 import { primaryInput } from 'detect-it'
-
-// Hooks
+ 
+// Hooksimport { AnimatedTestimonials } from "components/Ui";
 import { useDispatch, useSelector } from 'react-redux'
 import { useCallback, useEffect, useRef, useMemo } from 'react'
 import { useDebounce } from 'hooks/useDebounce'
@@ -127,6 +127,7 @@ function App() {
 
       <Portfolio />
       <About />
+     
       <Contact />
 
       {deviceHasPointer && <Pointer />}

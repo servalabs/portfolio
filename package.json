@@ -14,9 +14,11 @@
   "dependencies": {
     "@masatomakino/threejs-interactive-object": "0.13.2",
     "@rematch/core": "^2.2.0",
+    "@tabler/icons-react": "^3.31.0",
     "@twistezo/react-text-scramble": "^1.0.6",
     "@types/textfit": "^2.4.2",
     "classnames": "^2.3.2",
+    "clsx": "^2.1.1",
     "detect-it": "^4.0.1",
     "framer-motion": "^12.7.3",
     "gsap": "^3.11.5",
@@ -27,7 +29,11 @@
     "i18next-http-backend": "^2.2.0",
     "intersection-observer": "^0.12.2",
     "lil-gui": "^0.18.1",
+<<<<<<< Updated upstream
     "lucide-react": "^0.488.0",
+=======
+    "motion": "^12.7.2",
+>>>>>>> Stashed changes
     "quad-indices": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -40,6 +46,7 @@
     "redux": "^4.2.1",
     "requestanimationframe-timer": "^3.0.3",
     "scroll-lock": "^2.1.5",
+    "tailwind-merge": "^3.2.0",
     "textfit": "^2.4.0",
     "three": "^0.148.0",
     "ts-debounce": "^4.0.0",
@@ -75,7 +82,7 @@
     "postcss-preset-env": "^7.8.3",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^2.8.8",
-    "semantic-release": "^19.0.5",
+    "semantic-release": "^24.2.3",
     "stylelint": "^14.16.1",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-prettier": "^9.0.5",
