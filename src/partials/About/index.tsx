@@ -28,7 +28,6 @@ const imageComponents = {
   IMT: <ImageTrigger name="IMT" />,
   IMR: <ImageTrigger name="rocket" />,
   IMSR: <ImageTrigger name="IMSR" />
- 
 }
 
 function About() {
@@ -182,15 +181,34 @@ function About() {
         </Row>
       </Container>
 
-      <Container grid outerRightOnMobile>
+      <Container grid>
         <Row start={1} end={3}>
           <Heading>
             <Trans i18nKey="about.method2_title" components={{ pre: <pre /> }} />
           </Heading>
         </Row>
       </Container>
-
-     
+      <Container grid outerRightOnMobile>
+        <Row start={0} end={3}>
+          <video
+            id="skReel"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className={style.video}
+            style={{
+              width: '100%',
+              maxWidth: '1080px',
+              aspectRatio: '1260 / 720', // keeps consistent aspect ratio
+              objectFit: 'cover',
+              display: 'block'
+            }}
+          >
+            <source src="/images/thevid.mp4" type="video/mp4" />
+          </video>
+        </Row>
+      </Container>
     </Section>
   )
 }
