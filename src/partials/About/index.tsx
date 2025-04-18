@@ -7,10 +7,7 @@ import ContentBlock from 'components/ContentBlock'
 import ImageTrigger from 'components/ImageTrigger'
 import Square from 'components/Square'
 import Heading from 'components/Heading'
-import Contactx from 'partials/Contact2/index'
-import { List, ListItem } from 'components/List'
-import ThreeJsSlider from './ThreeJsSlider' // Import the new slider component
-
+ 
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
 

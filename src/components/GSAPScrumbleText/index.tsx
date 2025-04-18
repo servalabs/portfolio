@@ -31,7 +31,7 @@ function GSAPScrumbleText({ content, paused }: Props) {
     if (tl.current) {
       tl.current.kill()
     }
-    tl.current = gsap.timeline({ paused, delay: 2 })
+    tl.current = gsap.timeline({ paused, delay: 1 })
     const delay = 1
 
     for (let i = 0; i < content.length; i++) {
@@ -52,7 +52,7 @@ function GSAPScrumbleText({ content, paused }: Props) {
 
       if (l[1]) {
         tl.current.to(p2El.current, {
-          duration: 1.5,
+          duration: 1,
           scrambleText: {
             text: l[1],
             chars,
@@ -68,7 +68,7 @@ function GSAPScrumbleText({ content, paused }: Props) {
       if (i < content.length - 1) {
         tl.current.to([p1El.current, p2El.current], {
           opacity: 0,
-          duration: 1.5,
+          duration: 1,
           delay
         })
       }

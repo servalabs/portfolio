@@ -10,11 +10,7 @@ import ImageTrigger from 'components/ImageTrigger'
 import Heading from 'components/Heading'
 
 // Components
-
-import Square from 'components/Square'
-
-import Contactx from 'partials/Contact2/index'
-import { List, ListItem } from 'components/List'
+ 
 
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
