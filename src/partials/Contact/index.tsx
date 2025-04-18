@@ -81,8 +81,8 @@ function Contact() {
             <Heading className={emailClasses}>
               <div>
                 <div className={style.emailContainer}>
-                  <a className={style.email} href="mailto:web@saumyas.com">
-                    web@saumyas.com
+                  <a className={style.email} href="mailto:hi@saumyas.com">
+                    hi@saumyas.com
                   </a>
                 </div>
               </div>

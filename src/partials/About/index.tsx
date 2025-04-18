@@ -7,7 +7,7 @@ import ContentBlock from 'components/ContentBlock'
 import ImageTrigger from 'components/ImageTrigger'
 import Square from 'components/Square'
 import Heading from 'components/Heading'
- 
+
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
 
@@ -187,23 +187,18 @@ function About() {
       </Container>
       <Container grid outerRightOnMobile>
         <Row start={0} end={3}>
-          <video
-            id="skReel"
-            autoPlay
-            muted
-            loop
-            playsInline
-            className={style.video}
+          <img
+            src="/images/recommendations.gif" 
+            alt="Animated preview"
             style={{
               width: '100%',
               maxWidth: '1080px',
-              aspectRatio: '1260 / 720', // keeps consistent aspect ratio
+              aspectRatio: '1260 / 720',
               objectFit: 'cover',
               display: 'block'
             }}
-          >
-            <source src="/images/thevid.mp4" type="video/mp4" />
-          </video>
+            className={style.video} 
+          />
         </Row>
       </Container>
     </Section>

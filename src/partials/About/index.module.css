@@ -16,15 +16,7 @@
     margin-top: var(--content-block-margin-top);
   }
 }
-
-.video {
-  width: 100%;
-  max-width: 1080px;
-  aspect-ratio: 1080 / 560;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto; /* centers the video */
-}
+ 
 .awardsTitle {
   margin-top: var(--spc-10);
 }

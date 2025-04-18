@@ -10,7 +10,6 @@ import ImageTrigger from 'components/ImageTrigger'
 import Heading from 'components/Heading'
 
 // Components
- 
 
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
@@ -27,7 +26,8 @@ const imageComponents = {
   IMMM: <ImageTrigger name="IMMM" />,
   IMPA: <ImageTrigger name="IMPA" />,
   IMT: <ImageTrigger name="IMT" />,
-  IMR: <ImageTrigger name="rocket" />
+  IMR: <ImageTrigger name="rocket" />,
+  IMC: <ImageTrigger name="IMC"sizes={[2, 3]} />
 }
 
 function Portfolio() {
@@ -87,7 +87,7 @@ function Portfolio() {
       <Container grid>
         <Row start={1} end={2}>
           <>
-            <Trans i18nKey="portfolio.portfolio.3" />
+            <Trans i18nKey="portfolio.portfolio.3" components={imageComponents} />
           </>
         </Row>
       </Container>

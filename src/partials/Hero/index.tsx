@@ -28,7 +28,7 @@ export default function Hero() {
   const isTabletOrDesktop = useMediaQuery({ minWidth: breakpoints.mdP })
 
   const scrambleTexts: ScrambleTexts = [
-    [t('p1.l1'), t('p1.l2'), t('p1.l3'), t('p1.l4'), t('p1.l5')],
+    [t('p1.l1'), t('p1.l2')],
     [t('p2.l1'), t('p2.l2')],
     [t('p3.l1')],
     [t('p4.l1')]

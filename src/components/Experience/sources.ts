@@ -180,6 +180,16 @@ const sources: Sources = [
     path: '/images/IMZ.jpg'
   },
   {
+    name: 'IMC',
+    type: 'texture',
+    path: '/images/IMC.jpg'
+  },
+  {
+    name: 'RECO',
+    type: 'texture',
+    path: '/images/recommendations.gif'
+  },
+  {
     name: 'IMMM',
     type: 'texture',
     path: '/images/IMMM.jpg'

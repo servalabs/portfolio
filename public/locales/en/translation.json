@@ -10,41 +10,41 @@
   "go to project": "Go to",
   "intro": {
     "p1": {
-      "l1": "I’m    Saumya  ",
-      "l2": "A builder from heart and a systems thinker",
-      "l3": "Plan like the Military",
-      "l4": "Plan like the Military",
-      "l5": "Plan like the Military"
-    },
-    "p2": {
-      "l1": "Plan like the Military",
-      "l2": "Think like a Philosopher"
-    },
-    "p3": {
-      "l1": "Create like an Artist"
-    },
-    "p4": {
-      "l1": "Endure like an Athlete"
-    },
+  "l1": "I own nothing.",
+  "l2": "But I build everything.",
+ 
+},
+"p2": {
+  "l1": "Attention is currency.",
+  "l2": "Silence is wealth."
+},
+"p3": {
+  "l1": "Move with purpose",
+    "l2":"Or Not At All"
+,
+"p4": {
+  "l1": "Think deep. ",
+ 
+},
     "scroll_cta": {
       "line1": "Scroll to explore",
       "line2": "what I do"
     }
-  },
+  }},
   "portfolio": {
     "intro": [
       "",
       "",
       "",
-      "I help build & market products—from an <IMPA>AI-powered recorder</IMPA> , <IMSS>e-scooter</IMSS> and everything in between.",
-      "I run a <strong>tech blog</strong>, analyzing what works, what doesn’t, and why it matters.",
+      "Start small, stay curious, ship often.",
+      "Most of what I work on begins with a question—and a quiet urge to fix things.",
       ""
     ],
     "portfolio": [
-      "What I’m Working On",
-      "I run <strong> two </strong>ventures:<br /><br />",
-      "1. <IMT> TechGG.org</IMT> – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
-      "2. <strong>ServaLabs</strong> – Reinventing IT by replacing all your IT hardware & 20+ cloud services with a single product."
+      "Active Ops",
+      "1. <IMT>TechGG</IMT> – From consulting to content. I test, tear down, and position early tech—AI, hardware, edge tools.<br/>",
+      "2. <strong>ServaLabs</strong> – We build Atom: a local server that replaces your PCs, NAS, Firewall, CCTV NVRs, and 50+ Cloud Services.<br/ > For teams that want control without complexity.<br/>",
+      "3. <IMC>Speaker & Advisor</IMC> - Sharing my knowledge and help companies adopt AI.<br/>"
     ]
   },
   "about": {
@@ -86,3 +86,4 @@
     "social_intro": ""
   }
 }
+ 
