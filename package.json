@@ -29,11 +29,8 @@
     "i18next-http-backend": "^2.2.0",
     "intersection-observer": "^0.12.2",
     "lil-gui": "^0.18.1",
-<<<<<<< Updated upstream
     "lucide-react": "^0.488.0",
-=======
     "motion": "^12.7.2",
->>>>>>> Stashed changes
     "quad-indices": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
