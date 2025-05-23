@@ -165,6 +165,11 @@ const sources: Sources = [
     path: '/images/IMPA.png'
   },
   {
+    name: 'AXMP',
+    type: 'texture',
+    path: '/images/axmp.avif'
+  },
+  {
     name: 'IMT',
     type: 'texture',
     path: '/images/IMT.jpg'
