@@ -74,6 +74,7 @@ function Portfolio() {
           </Heading>
         </Row>
       </Container>
+     
       <Container grid>
         <Row start={1} end={2}>
           <ContentBlock>
@@ -92,6 +93,13 @@ function Portfolio() {
         </Row>
       </Container>
 
+      <Container grid outerRightOnMobile className={style.projectSection}>
+        <Row start={1} end={2}>
+          <Heading key={portfolio[4]}>
+            <Trans i18nKey="portfolio.portfolio.4" components={imageComponents} />
+          </Heading>
+        </Row>
+      </Container>
       <div className={style.cardContainer} id="card-container" />
 
       <video id="skReel" autoPlay muted loop playsInline className={style.video}>

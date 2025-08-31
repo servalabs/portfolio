@@ -15,7 +15,7 @@ export const section = createModel<RootModel>()({
       { name: 'Hello!', id: 'hero' },
       { name: 'About', id: 'portfolio' },
       { name: 'XPerience', id: 'about' },
-      { name: 'Contact', id: 'contact' }
+      { name: 'My Blog.', id: 'contact' }
     ]
   },
   reducers: {
