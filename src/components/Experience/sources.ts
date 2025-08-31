@@ -165,11 +165,6 @@ const sources: Sources = [
     path: '/images/IMPA.png'
   },
   {
-    name: 'AXMP',
-    type: 'texture',
-    path: '/images/axmp.avif'
-  },
-  {
     name: 'IMT',
     type: 'texture',
     path: '/images/IMT.jpg'
@@ -183,6 +178,16 @@ const sources: Sources = [
     name: 'IMZ',
     type: 'texture',
     path: '/images/IMZ.jpg'
+  },
+  {
+    name: 'IMC',
+    type: 'texture',
+    path: '/images/IMC.jpg'
+  },
+  {
+    name: 'RECO',
+    type: 'texture',
+    path: '/images/recommendations.gif'
   },
   {
     name: 'IMMM',

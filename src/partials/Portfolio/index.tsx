@@ -11,11 +11,6 @@ import Heading from 'components/Heading'
 
 // Components
 
-import Square from 'components/Square'
-
-import Contactx from 'partials/Contact2/index'
-import { List, ListItem } from 'components/List'
-
 // Hooks
 import { Trans, useTranslation } from 'react-i18next'
 
@@ -31,7 +26,8 @@ const imageComponents = {
   IMMM: <ImageTrigger name="IMMM" />,
   IMPA: <ImageTrigger name="IMPA" />,
   IMT: <ImageTrigger name="IMT" />,
-  IMR: <ImageTrigger name="rocket" />
+  IMR: <ImageTrigger name="rocket" />,
+  IMC: <ImageTrigger name="IMC"sizes={[2, 3]} />
 }
 
 function Portfolio() {
@@ -78,6 +74,7 @@ function Portfolio() {
           </Heading>
         </Row>
       </Container>
+     
       <Container grid>
         <Row start={1} end={2}>
           <ContentBlock>
@@ -91,11 +88,18 @@ function Portfolio() {
       <Container grid>
         <Row start={1} end={2}>
           <>
-            <Trans i18nKey="portfolio.portfolio.3" />
+            <Trans i18nKey="portfolio.portfolio.3" components={imageComponents} />
           </>
         </Row>
       </Container>
 
+      <Container grid outerRightOnMobile className={style.projectSection}>
+        <Row start={1} end={2}>
+          <Heading key={portfolio[4]}>
+            <Trans i18nKey="portfolio.portfolio.4" components={imageComponents} />
+          </Heading>
+        </Row>
+      </Container>
       <div className={style.cardContainer} id="card-container" />
 
       <video id="skReel" autoPlay muted loop playsInline className={style.video}>

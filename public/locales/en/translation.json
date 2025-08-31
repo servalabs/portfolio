@@ -6,27 +6,27 @@
   "completed": "Completed",
   "riconoscimenti": "Awards",
   "close": "Close",
-  "close project": "Close this project",
-  "go to project": "Go to",
+  "close_project": "Close this project",
+  "go_to_project": "Go to",
   "intro": {
     "p1": {
-      "l1": "I’m    Saumya  ",
-      "l2": "Jack of All Trades, Master of None",
-      "l3": ""
+      "l1": "I own nothing.",
+      "l2": "But I build everything."
     },
     "p2": {
-      "l1": "Oftentimes better",
-      "l2": "Than Master of One"
+      "l1": "Attention is currency.",
+      "l2": "Silence is wealth."
     },
     "p3": {
-      "l1": "A polymath"
+      "l1": "Move with purpose",
+      "l2": "Or Not At All"
     },
     "p4": {
-      "l1": "And a technocrat"
+      "l1": "Think deep."
     },
     "scroll_cta": {
-      "line1": "You can scroll",
-      "line2": "to explore"
+      "line1": "Scroll to explore",
+      "line2": "what I do"
     }
   },
   "portfolio": {
@@ -34,26 +34,27 @@
       "",
       "",
       "",
-      "I help build & market products - from an <IMPA>AI-powered recorder</IMPA> , <IMSS>e-scooter</IMSS> and everything in between.",
-      "I run a <strong>tech blog</strong>, analyzing what works, what doesn’t, and why it matters.",
+      "Start small, stay curious, ship often.",
+      "Most of what I work on begins with a question—and a quiet urge to fix things.",
       ""
     ],
     "portfolio": [
-      "What I’m Working On",
-      "I run <strong> two </strong>ventures:<br /><br />",
-      "1. <IMT> TechGG.org</IMT> – A consulting turned media company exploring the latest in AI, gadgets, and tech.",
-      "2. <strong>ServaLabs</strong> – Reinventing IT by replacing all your IT hardware & 20+ cloud services with a single product."
+      "Active Ops",
+      "1. <IMT>TechGG</IMT> – From consulting to content. I test, tear down, and position early tech—AI, hardware, edge tools.<br/>",
+      "2. <strong>ServaLabs</strong> – We build Atom: a local server that replaces your PCs, NAS, Firewall, CCTV NVRs, and 50+ Cloud Services.<br/>For teams that want control without complexity.<br/>",
+      "3. <IMC>Speaker & Advisor</IMC> - Sharing my knowledge and help companies adopt AI.<br/><br/><br/>",
+      "Companies I have  <br/>worked with "
     ]
   },
   "about": {
     "intro": [
-      "Curiosity drives me , My only addictions? Coke (the drink) and learning. ",
+      "Curiosity drives me. My only addictions? Coke (the drink) and learning.",
       "TechGG",
-      "Started as a consulting gig, now it’s a tech media platform that dives into AI, gadgets, and innovation.<br/> <br />I break down tech—what works, what sucks, and why it matters.<br/> <br />I help build & market products—from an AI-powered voice recorder to an e-scooter, and everything in between.<br/> <br />I spot trends before they go mainstream.<br/> <br /> Some cool stuff I’ve worked on:",
+      "Started as a consulting gig, now it’s a tech media platform that dives into AI, gadgets, and innovation.<br/><br/>I break down tech—what works, what sucks, and why it matters.<br/><br/>I help build & market products—from an AI-powered voice recorder to an e-scooter, and everything in between.<br/><br/>I spot trends before they go mainstream.<br/><br/>Some cool stuff I’ve worked on:",
       "<IMSS>Scooway</IMSS> e-Scooter",
       "<IMS>Sharge 100 Powerbank</IMS> (100W Powerbank with OS and display)",
       "<IMZ>Zimaboard</IMZ> (Single-board computer)",
-      "<IMMM>mymind </IMMM>(AI-powered second brain)",
+      "<IMMM>mymind</IMMM> (AI-powered second brain)",
       "<IMPA>Plaud Note</IMPA> (AI recorder that sticks to your phone)"
     ],
     "clan_title": ["Serva", "Labs"],
@@ -61,24 +62,19 @@
       "<strong>Tech</strong> should make life easier. Right now, it doesn’t.<br/>",
       "So I built <strong>ServaLabs</strong> to fix that.<br/>",
       "We made <strong><IMSR>Atom</IMSR></strong>—a single, powerful server that:",
-      "Replaces office PCs, NAS, firewalls, CCTV NVRs, and 20+ cloud services.</br><strong>Cuts costs by 60%</strong> and boosts productivity by 30%.",
+      "Replaces office PCs, NAS, firewalls, CCTV NVRs, and 20+ cloud services.<br/><strong>Cuts costs by 60%</strong> and boosts productivity by 30%.",
       "Has <strong>AI</strong> baked in—automate tasks, deploy AI agents, and optimize workflows.",
       "No more juggling a hundred IT systems. Just one machine that does it all."
     ],
-    "method_title": "   <br />       <br />As a kid, <br/>I tried a bunch of things:",
+    "method_title": "<br/><br/>As a kid,<br/>I tried a bunch of things:",
     "method": [
-      "Worked with  <ImageTesla> Tesla coils </ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
-      "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/> it changes how people think or operate, count me in.",
-      "Give me a lever long enough<br />and a place to stand<br />and I will move the Earth - Aristotle"
+      "Worked with <ImageTesla>Tesla coils</ImageTesla>.<br/>Created websites before <IMT>TechGG</IMT>.<br/>Built & launched model <IMR>rockets</IMR>",
+      "Now, I apply this curiosity to tech, business, mental models, history, and geopolitics.<br/>If it changes how people think or operate, count me in.",
+      "Give me a lever long enough<br/>and a place to stand<br/>and I will move the Earth - Aristotle"
     ],
-    "method2_title": "<br /> <br /> My Recommendations",
-    "method2": [
-      "",
-      "",
-      ""
-    ]
+    "method2_title": "<br/><br/><br/>My Recommendations",
+    "method2": ["", "", ""]
   },
-
   "contact": {
     "intro": "",
     "social_intro": ""
