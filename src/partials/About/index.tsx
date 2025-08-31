@@ -72,12 +72,7 @@ const imageComponents = {
   IMT: <ImageTrigger name="IMT" />,
   IMR: <ImageTrigger name="rocket" />,
   IMSR: <ImageTrigger name="IMSR" />
-<<<<<<< Updated upstream
-
-}
-=======
 };
->>>>>>> Stashed changes
 
 function About() {
   const { t } = useTranslation('translation', { keyPrefix: 'about' })
@@ -198,18 +193,6 @@ function About() {
         </Row>
         <AnimatedTestimonialsDemo />
       </Container>
-<<<<<<< Updated upstream
-
-      <Container>
-        <Row start={1} end={3}>
-          <div className={style.sliderWrapper}>
-            <ThreeJsSlider />
-          </div>
-        </Row>
-      </Container>
-
-=======
->>>>>>> Stashed changes
     </Section>
   );
 }
