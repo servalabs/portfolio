@@ -10,23 +10,23 @@
   "go_to_project": "Go to",
   "intro": {
     "p1": {
-      "l1": "I own nothing.",
-      "l2": "But I build everything."
+      "l1": "Hi! I'm Saumya",
+      "l2": "A Technocrat"
     },
     "p2": {
-      "l1": "Attention is currency.",
-      "l2": "Silence is wealth."
+      "l1": "Jack of All Trades, Master of None",
+      "l2": "Oftentimes better than Master of one"
     },
     "p3": {
-      "l1": "Move with purpose",
-      "l2": "Or Not At All"
+      "l1": "AI Accelerationist",
+      "l2": ""
     },
     "p4": {
-      "l1": "Think deep."
+      "l1": "with a splash of philosophy"
     },
     "scroll_cta": {
-      "line1": "Scroll to explore",
-      "line2": "what I do"
+      "line1": "Scroll to",
+      "line2": "Explore"
     }
   },
   "portfolio": {
@@ -34,21 +34,21 @@
       "",
       "",
       "",
-      "Start small, stay curious, ship often.",
-      "Most of what I work on begins with a question—and a quiet urge to fix things.",
+      "I am innately curious",
+      "Most of what I work on begins with a question & an urge to fix things.",
       ""
     ],
     "portfolio": [
       "Active Ops",
-      "1. <IMT>TechGG</IMT> – From consulting to content. I test, tear down, and position early tech—AI, hardware, edge tools.<br/>",
-      "2. <strong>ServaLabs</strong> – We build Atom: a local server that replaces your PCs, NAS, Firewall, CCTV NVRs, and 50+ Cloud Services.<br/>For teams that want control without complexity.<br/>",
+      "1. <IMT>TechGG</IMT> – From consulting early stage brands to reviewing products. I test, tear down, and position Gadgets, AI Tools, Saas, etc.<br/>",
+      "2. <strong>ServaLabs</strong> – We help companies and individuals become digitally sovereign by replace most of Cloud services (eg. from Google) with Private Servers. <br/>",
       "3. <IMC>Speaker & Advisor</IMC> - Sharing my knowledge and help companies adopt AI.<br/><br/><br/>",
-      "Companies I have  <br/>worked with "
+      "Companies I <br/> worked with <br/> so far"
     ]
   },
   "about": {
     "intro": [
-      "Curiosity drives me. My only addictions? Coke (the drink) and learning.",
+      "",
       "TechGG",
       "Started as a consulting gig, now it’s a tech media platform that dives into AI, gadgets, and innovation.<br/><br/>I break down tech—what works, what sucks, and why it matters.<br/><br/>I help build & market products—from an AI-powered voice recorder to an e-scooter, and everything in between.<br/><br/>I spot trends before they go mainstream.<br/><br/>Some cool stuff I’ve worked on:",
       "<IMSS>Scooway</IMSS> e-Scooter",
