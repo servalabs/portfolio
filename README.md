@@ -332,8 +332,6 @@ Key components include:
 ### Setup
 ```bash
 # Clone the repository
-git clone git@github.com:Giulico/folio-2022.git
-cd folio-2022
 
 # Install dependencies (pnpm is enforced)
 pnpm install
