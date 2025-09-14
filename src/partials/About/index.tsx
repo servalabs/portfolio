@@ -188,7 +188,7 @@ function About() {
       <Container grid outerRightOnMobile>
         <Row start={0} end={3}>
           <img
-            src="/images/recommendations.gif" 
+            src="https://cdn.servalabs.com/p/recommendations.gif" 
             alt="Animated preview"
             style={{
               width: '100%',
