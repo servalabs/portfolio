@@ -58,7 +58,7 @@ export default function Hero() {
         <div className={style.menuContainer}>
           <Menu />
         </div>
-        <LangSwitch />
+       
       </header>
       <Section name="hero" className={style.root}>
         <div className={style.middle}>
