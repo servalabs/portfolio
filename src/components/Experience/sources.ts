@@ -89,21 +89,8 @@ const sources: Sources = [
     type: 'gltfModel',
     path: '/models/Man/Man7.glb'
   },
-  {
-    name: 'venice',
-    type: 'texture',
-    path: '/images/venice.jpeg'
-  },
-  {
-    name: 'sketchin',
-    type: 'texture',
-    path: '/images/sketchin.jpg'
-  },
-  {
-    name: 'tcmgtk',
-    type: 'texture',
-    path: '/images/tcmg.jpeg'
-  },
+   
+
   {
     name: 'pow',
     type: 'texture',
@@ -114,35 +101,11 @@ const sources: Sources = [
     type: 'texture',
     path: '/images/tesla.jpeg'
   },
-  {
-    name: 'bw',
-    type: 'texture',
-    path: '/images/bw.jpg'
-  },
-  {
-    name: 'no1',
-    type: 'texture',
-    path: '/images/no1.jpg'
-  },
-  {
-    name: 'no2',
-    type: 'texture',
-    path: '/images/no2.jpg'
-  },
-  {
-    name: 'aicoder',
-    type: 'texture',
-    path: '/images/plaud-ai-recorder.jpg'
-  },
+  
   {
     name: 'rocket',
     type: 'texture',
     path: '/images/rocket-eg.jpg'
-  },
-  {
-    name: 'no3',
-    type: 'texture',
-    path: '/images/no3.jpg'
   },
   {
     name: 'IMZ',
@@ -184,11 +147,7 @@ const sources: Sources = [
     type: 'texture',
     path: '/images/IMC.jpg'
   },
-  {
-    name: 'RECO',
-    type: 'texture',
-    path: '/images/recommendations.gif'
-  },
+ 
   {
     name: 'IMMM',
     type: 'texture',
